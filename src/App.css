@@ -5,11 +5,11 @@
 :root {
     --primary: #4400ff;
     --secondary: #48fefe;
-    --dark: #212121;
+    --dark: #F3F3F3;
     --light: #F3F3F3;
   
   --primary-color: #379cf6;
-  --heading-color: #fff;
+  --heading-color: #090238;
   --btn-primary-bg: #379cf6;
   --btn-secondary-bg: #090238;  
   --team-card-bg: #1b2352;
@@ -22,7 +22,7 @@
     rgba(29, 129, 176, 1) 55%,
     rgba(35, 93, 173, 1) 75%
   );
-  --body-bg: rgba(6, 11, 26, 1);
+  --body-bg: rgb(255, 255, 255);
   --newsletter-bg: linear-gradient(
     90deg,
     rgba(27, 9, 115, 1) 20%,
@@ -134,10 +134,14 @@ section{
 @media only screen and (max-width:1024px) {
   .container{
     width:100%;
+    padding: 0%;
   }
 }
 @media only screen and (max-width:768px) {
   section {
     padding: 40px 0px;
   }
+
+  
+
 }

@@ -29,9 +29,6 @@
     column-gap: 2rem ;
 }
 
-.hero__content{
-    padding-top: 40px;
-}
 
 .primary__btn, .secondary__btn{
     padding: 0.8rem 1.5rem;
@@ -77,5 +74,14 @@
     }   
     .hero__wrapper{
         flex-direction: column;
+    }
+    .primary__btn, .secondary__btn{
+        padding: 0.3rem 1.5rem;
+    }
+    .hero__btns{
+        margin-top: 10px;
+    }
+    .hero__content p{
+        margin-top: 10px;
     }
 }

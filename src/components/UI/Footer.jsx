@@ -1,4 +1,5 @@
 import React from "react";
+import SOM from "../../assets/SOM.png"
 import "../../styles/footer.css"
 const Footer = () =>{
 
@@ -28,27 +29,15 @@ const Footer = () =>{
             path: '#',
             display : 'College Placements'
         },
+    
     ]
-        const quickLinks03=[
-            {
-                path: '#',
-                display : <i class="ri-linkedin-box-fill"></i>
-            },
-            {
-                path: '#',
-                display :<i class="ri-facebook-circle-fill"></i>
-            }, {
-                path: '#',
-                display : <i class="ri-instagram-line"></i>
-            }
-    ]
-
     return <footer className="footer">
         <div className="container">
             <div className="footer__wrapper">
                 <div className="footer__logo">
-                    <h2>SOM</h2>
-                    <p className="small__text description"></p>
+                <div className="logo">
+                        <img src={SOM} style={{width:"100px", height: "100px"}} alt=""/>
+                    </div>
                 </div>
                 <div className="footer__quick-links">
                     <div className="quick__links-title">Solution</div>
@@ -71,14 +60,13 @@ const Footer = () =>{
                 </div>
 
                 <div className="footer__quick-links">
-                    <div className="quick__links-title">Contact Us</div>
-                    <ul className="quick__links">
-                        {
-                            quickLinks03.map((item,index)=>
-                                <li className="quick__link-item" key={index}><a href={item.path}>{item.display}</a></li>)
-                        }
-                    </ul>
-                </div>
+  <div className="quick__links-title">Contact Us</div>
+  <ul className="quick__links">
+    <li className="quick__link-item"><i className="ri-linkedin-box-fill" style={{ fontSize: '24px' }}></i></li>
+    <li className="quick__link-item"> <i className="ri-facebook-circle-fill" style={{ fontSize: '24px' }}></i></li>
+    <li className="quick__link-item"> <i className="ri-instagram-line" style={{ fontSize: '24px' }}></i></li>
+  </ul>
+</div>
             </div>
         </div>
     </footer>
