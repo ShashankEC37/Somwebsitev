@@ -9,29 +9,34 @@ const teamMembers=[
     {
         imgUrl: team01,
         name: 'Sheetal Surana',
-        position: 'Founder-CEO'
+        position: 'Founder & CEO'
     },
     {
         imgUrl: team02,
         name: 'Param Preeth',
-        position: 'Founder-COO'
+        position: 'Founder & CTO'
     },{
         imgUrl: team03,
-        name: 'Rahul ',
+        name: ' Rahul ',
+        position: 'Mentor Strategic Advisor '
+    },
+    {
+        imgUrl: team04,
+        name: ' Shashank S Rao',
         position: 'Master Trainer'
     },
     {
         imgUrl: team04,
-        name: 'Sheetal Surana',
-        position: 'Founder-CEO'
-    }
+        name: 'Deena C Rath',
+        position: 'Master Trainer and Co-Facilitator'
+    },
 ]
 const Team = () =>{
     return <section className="our__team">
         <div className="container">
             <div className="team__content">
-                <h6 className="subtitle">Our Team</h6>
-                <h2>Meet <span className="highlight">Our core Team</span>
+        
+                <h2 >Meet Our core <span style={{color:"white"}}>Team</span>
                 </h2>
             </div>
             <div className="team__wrapper">

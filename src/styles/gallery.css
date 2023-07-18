@@ -1,15 +1,21 @@
 
-  .gallery{
+
+.container1{
+    padding:0px;
+    margin: auto
+}
+.gallery{
     position: relative;
     color: white;
     display: flex;
     align-items: center;
     justify-content:center;
-    min-height:100vh;
+    min-height:70vh;
     background: black;
 }
 .gallery-heading {
     text-align: center;
+    margin-top: 50px;
     position: absolute;
     top: 0;
     left: 50%;
@@ -18,10 +24,11 @@
   }
 .box{
     position:relative;
+    margin-top: 50px;
     width:200px;
     height:200px;
     transform-style: preserve-3d;
-    animation: animate 15s linear infinite;
+    animation: animate 17s linear infinite;
 }
 @keyframes animate {
     0%{

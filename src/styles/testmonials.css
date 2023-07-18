@@ -1,23 +1,33 @@
+
+
+
 .slider__content-top{
     text-align: center;
     margin-bottom: 50px;
 }
 
 .slider__wrapper{
-    width: 70%;
+    width: 80%;
+    min-height: 30%;
     margin: auto;
 }
 
 .slider__item{
-    background: var(--testimonial-bg);
+    background:  #1a0f4f;
     padding: 40px 30px;
     border-radius: 0.5rem;
     text-align: center;
     cursor: pointer;
+    color: white;
 }
 
 
+.white{
+    color: white;
+}
+
 .customer__details{
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,4 +50,20 @@
     font-style: 1.2rem;
     color: white;
     font-weight: 500;
+}
+
+@media only screen and (max-width:768px) {
+   .slider__wrapper{
+    width: 90%;
+   }
+   .customer__name{
+    font-size: 1rem;
+   } 
+}
+
+@media only screen and (max-width:992px){
+    .slider__content-top h2{
+        font-size: 1.5rem;
+    }
+
 }

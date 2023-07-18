@@ -40,7 +40,7 @@ const Footer = () =>{
                     </div>
                 </div>
                 <div className="footer__quick-links">
-                    <div className="quick__links-title">Solution</div>
+                    <div className="quick__links-title">Services</div>
                     <ul className="quick__links">
                         {
                             quickLinks01.map((item,index)=>
@@ -60,11 +60,11 @@ const Footer = () =>{
                 </div>
 
                 <div className="footer__quick-links">
-  <div className="quick__links-title">Contact Us</div>
+  <div className="quick__links-title">Connect with Us</div>
   <ul className="quick__links">
-    <li className="quick__link-item"><i className="ri-linkedin-box-fill" style={{ fontSize: '24px' }}></i></li>
-    <li className="quick__link-item"> <i className="ri-facebook-circle-fill" style={{ fontSize: '24px' }}></i></li>
-    <li className="quick__link-item"> <i className="ri-instagram-line" style={{ fontSize: '24px' }}></i></li>
+    <li className="quick__link-item"><i className="ri-linkedin-box-fill" style={{ fontSize: '24px', color:"white" }}></i></li>
+    <li className="quick__link-item"> <i className="ri-facebook-circle-fill" style={{ fontSize: '24px',  color:"white" }}></i></li>
+    <li className="quick__link-item"> <i className="ri-instagram-line" style={{ fontSize: '24px',  color:"white" }}></i></li>
   </ul>
 </div>
             </div>

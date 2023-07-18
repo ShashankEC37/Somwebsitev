@@ -1,6 +1,6 @@
 .footer{
     padding: 60px 0px;
-
+    background: rgb(59, 59, 59);
 }
 
 .footer__wrapper{
@@ -54,4 +54,14 @@
 
 .light-theme .copyright{
     color: #ddd
+}
+
+
+@media only screen and (max-width:768px){
+        .footer__logo{
+            width: 100%;
+        }
+        .footer__wrapper{
+            flex-wrap: wrap;
+        }
 }

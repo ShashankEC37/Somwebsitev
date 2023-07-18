@@ -74,7 +74,7 @@ const Header= ({theme,toggleTheme}) => {
             <div className="container">
                 <div className="nav__wrapper">
                     <div className="logo">
-                        <img src={SOM} style={{width:"100px", height: "100px"}} alt=""/>
+                        <img src={SOM} style={{width:"130px", height: "auto" , marginTop:"0px"}} alt=""/>
                     </div>
                     {/*=====================Nav==============*/}
                     <div className="navigation" ref={menuRef} onClick={toggleMenu}>
@@ -95,16 +95,10 @@ const Header= ({theme,toggleTheme}) => {
                         </ul>
                     </div>
                               {/*=====================Lightmode==============*/}
-                              <div className="light__mode" >
-                            <span onClick={toggleTheme}>
-                                {
-                                    theme==='light-theme' ? (<span>  Dark </span> ):(<span> Light </span>
-                                   ) }
-                              
-                            </span>
-                         </div>
+
                          <span className="mobile__menu" onClick={toggleMenu}>
-                            <i class="ri-menu-line"></i>
+                         <i class="ri ri-menu-line" style={{fontSize: "2rem", marginRight:"20px"}}></i>
+
                         </span>
                 </div>
             </div>

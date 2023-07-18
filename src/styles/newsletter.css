@@ -1,7 +1,9 @@
 .newsletter{
-    background: var(--newsletter-bg);
+    background: white
 }
-
+.white{
+    color: white;
+}
 .newsletter__wrapper{
     display: flex;
     align-items: center;
@@ -13,12 +15,13 @@
     width: 50%;
 }
 
-.newsletter__form input{
+.newsletter__form input {
     padding: 0.7rem 1.5rem;
-    border: none;
-    outline:none;
+    border: 2px solid #000000; /* Add border with desired color */
+    outline: none;
     cursor: pointer;
-}
+  }
+  
 .newsletter__form{
     padding: 0.4rem;
     background: #fff;
@@ -35,9 +38,9 @@
 .light-theme .newsletter{
     background:linear-gradient(
         180deg,
-        rgba(189, 243, 255, 1) 29%,
-        rgba(193, 243, 255, 1) 50%,
-        rgba(226, 250, 255, 1) 78%
+        rgb(56, 85, 248) ,
+        rgb(255, 255, 255) ,
+        rgb(56, 85, 248)
       );
 }
 
@@ -45,4 +48,28 @@
 .light-theme .subscribe__btn{
     background:var(--primary-color);
     color: #fff;
+}
+
+@media only screen and (max-width:992px){
+    .newsletter__content h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:768) {
+        .newsletter__wrapper{
+            flex-wrap: wrap ;
+        }
+        .newsletter__content, .newsletter__form{
+            width: 100%;
+        }
+
+        .newsletter__content{
+            margin-bottom: 30px;
+        }
+
+        .newsletter__form input{
+            padding: 8px 20px;
+            font-size: .9rem;
+        }
 }

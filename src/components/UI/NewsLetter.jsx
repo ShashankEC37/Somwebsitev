@@ -5,12 +5,12 @@ const NewsLetter = () =>{
         <div className="container">
             <div className="newsletter__wrapper">
                 <div className="newsletter__content">
-                    <h6 className="subtitle">
-                    Subscribe to our Newsletter
-                    </h6>
-                    <h2>
-                        To get <span className="highlight"> latest updates </span> from School Of Masters
-                    </h2>
+                    <h3 >
+                    Subscribe to our Newsletter 
+                    </h3>
+                    <h3>
+                        To get  latest updates  from   </h3>
+                        <h1 style={{color:"#4400ff" , fontSize:"35px"}}>SCHOOL OF MASTERS</h1>
                 </div>
                 <div className="newsletter__form">
                     <input type="email" placeholder="Email" />

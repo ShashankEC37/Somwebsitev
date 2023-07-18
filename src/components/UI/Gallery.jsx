@@ -1,5 +1,4 @@
 import React from 'react';
-import hp from '../../images/HPGAS.jpeg'
 import hospital from '../../images/hospital.jpg'
 import ECOSales from '../../images/ECOSales.jpeg'
 import interviewCollege from "../../images/interviewCollege.jpg"
@@ -7,14 +6,16 @@ import training from "../../images/training.jpg"
 import bluecollar from "../../images/bluecollar.jpg"
 import one from "../../images/121.jpg"
 import speed from "../../images/speed reading.jpg"
+import college from "../../images/college.jpg"
 import "../../styles/gallery.css"
 const Gallery = () => {
   return (
+    <div className="container1">
     <section className="gallery">
       <h3 className="gallery-heading">GALLERY</h3>
       <div className="box">
   <span style={{ '--i': 1 }}>
-    <img src={hp} alt="" style={{ width: 'auto', height: '150px' }} />
+    <img src={college} alt="" style={{ width: 'auto', height: '150px' }} />
   </span>
   <span style={{ '--i': 2 }}>
     <img src={hospital} alt="" style={{ width: 'auto', height: '150px' }} />
@@ -41,6 +42,7 @@ const Gallery = () => {
 
       <h3 className="gallery-heading">GALLERY</h3>
     </section>
+    </div>
   );
 };
 

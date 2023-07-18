@@ -20,8 +20,8 @@ const Team = () =>{
     return <section >
         <div className="container">
             <div className="slider__content-top">
-                    <h6 className="subtitle">Testmonials</h6>
-                    <h2>Trusted by more than <span className="highlight">1000 Clients</span></h2>
+                    <h2 className="white">Testmonials</h2>
+                    <h2>Trusted by more than <span className="white">500+ Clients</span></h2>
             </div>
             <div className="slider__wrapper">
             <Slider {...settings}>

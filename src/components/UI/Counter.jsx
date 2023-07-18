@@ -4,17 +4,17 @@ import "../../styles/counter.css";
 
 const counterData = [
   {
-    number: '1',
-    extra: 'K+',
+    number: '500',
+    extra: '+',
     text: 'Clients'
   },
   {
-    number: '10',
-    extra: 'K+',
-    text: 'Trainees'
+    number: '10000',
+    extra: '+',
+    text: 'Students'
   },
   {
-    number: '50',
+    number: '20',
     extra: '+',
     text: 'Masters'
   }

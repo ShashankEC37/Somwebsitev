@@ -1,0 +1,170 @@
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.product-view-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Display a maximum of 4 products per row */
+  grid-gap: 20px; /* Spacing between products */
+  justify-items: center;
+  padding-bottom: 5%;
+}
+
+.product-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border-radius: 20%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden; /* Ensure the overlay stays within the boundaries */
+  transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.product-card:hover {
+  transform: scale(1.1); /* Apply scale transformation on hover to make the product card expand a little */
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* Add a gradient black overlay */
+  z-index: 1;
+}
+
+.product-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  z-index: 0;
+}
+
+.name {
+  position: absolute;
+  bottom: 1px;
+  border-radius: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+/* Modal Styles */
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 800px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px); /* Add blur effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+
+.modal-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.modal-image img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+/* }
+Sheetal
+Akshara 
+Nandakuar
+Neetu mansal
+Yashoda
+Deena 
+Shaahsank
+Ram ,
+Varsha
+Chetan  */
+
+.modal-details{
+  padding: 20px;
+}
+
+.modal-details h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.modal-details p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: #000;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+
+.close-button:hover {
+  color: #ff0000;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .product-view-container {
+    grid-template-columns: repeat(2, 1fr); /* Display 2 products per row on smaller screens */
+    
+  }
+  .modal-content {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .product-view-container {
+    grid-template-columns: 1fr; /* Display 1 product per row on even smaller screens */
+    padding : 0px
+  }
+}
