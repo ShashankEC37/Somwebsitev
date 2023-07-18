@@ -1,9 +1,11 @@
 
 
-.container1{
-    padding:0px;
-    margin: auto
-}
+.container1 {
+    width: 100%;
+    padding: 0px ;
+    margin: auto;
+  }
+  
 .gallery{
     position: relative;
     color: white;
@@ -11,6 +13,7 @@
     align-items: center;
     justify-content:center;
     min-height:70vh;
+    width: 100%;
     background: black;
 }
 .gallery-heading {
