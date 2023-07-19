@@ -4,6 +4,7 @@ import team01 from "../../images/team-01.png";
 import team02 from "../../images/team-02.png";
 import team03 from "../../images/team-03.png";
 import team04 from "../../images/team-04.png";
+import Clients from "./Clients";
 
 const teamMembers=[
     {
@@ -34,6 +35,7 @@ const teamMembers=[
 const Team = () =>{
     return <section className="our__team">
         <div className="container">
+        <Clients />
             <div className="team__content">
         
                 <h2 >Meet Our core <span style={{color:"white"}}>Team</span>

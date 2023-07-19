@@ -9,9 +9,9 @@ const Hero = () =>{
             <div className="hero__wrapper">
                 <div className="hero__content">
                 <div>
-                    <h2>Empower Individual</h2>
-                    <h2>Enriching Organisations</h2>
-                    <h2 className="highlight">Investing in People Organisation and Strategy</h2>
+                    <h2>Empower Individuals</h2>
+                    <h2>Enriching Organisations,</h2>
+                    <h2 className="highlight"> People, Operations and Strategy</h2>
                 </div>
                 <p className="description">we invite you to accelerate your performance through our programs</p>
                     <div className="hero__btns">

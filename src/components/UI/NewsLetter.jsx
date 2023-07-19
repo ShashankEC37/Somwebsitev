@@ -6,10 +6,9 @@ const NewsLetter = () =>{
             <div className="newsletter__wrapper">
                 <div className="newsletter__content">
                     <h3 >
-                    Subscribe to our Newsletter 
+                    Subscribe to our Newsletter  To get latest updates  from   
                     </h3>
-                    <h3>
-                        To get  latest updates  from   </h3>
+                  
                         <h1 style={{color:"#4400ff" , fontSize:"35px"}}>SCHOOL OF MASTERS</h1>
                 </div>
                 <div className="newsletter__form">

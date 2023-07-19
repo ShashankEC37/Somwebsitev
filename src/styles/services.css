@@ -9,11 +9,12 @@
     font-family: montserrat, sans-serif;
     width: 100%;
     min-height: 100vh;
-    
+  
 
   }
   .service__content{
     background: white;
+    
   }
 
   .heading{

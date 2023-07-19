@@ -1,0 +1,63 @@
+.partners_section{
+    background: white;
+    padding:  0;
+
+}
+
+.section_title{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.section_title h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logos_slider{
+    overflow-x: hidden ;
+}
+
+.overflow{
+    display: flex ;
+    padding:5rem , 1rem;
+    overflow:hidden;
+}
+
+.reverse .logos_wrapper{
+    animation-direction: reverse;
+}
+
+.logos_wrapper{
+    display:flex ;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+    animation: logoLoop 30s linear infinite;
+}
+
+
+
+.logo_item{
+    margin-left: 1rem;
+    padding: 1rem;
+    aspect-ratio: 30/9;
+    background: white;
+    display: grid;
+    place-items  : center;
+    border-radius: 1rem;
+}
+
+.logo_item img{
+    height: 4rem;
+    margin-inline: 2rem;
+}
+
+@keyframes logoLoop {
+ from{
+    transform: translateX(0);
+ }   
+ to{
+    transform: translateX(-100%);
+ }
+}

@@ -4,11 +4,11 @@ import SOM from "../../assets/SOM.png"
 
 const nav__links = [
     {
-        path:'#home',
+        path:'/',
         display: 'Home'
     },
     {
-        path:'#masters',
+        path:'/masters',
         display: 'Masters'
     },
     {
@@ -51,21 +51,29 @@ const Header= ({theme,toggleTheme}) => {
         return ()=>window.removeEventListener('scroll', headerFunc)
     },[])
 
-
-    const handleClick = e =>{
-              e.preventDefault ()
-
-              const targetAttr = e.target.getAttribute('href')
-
-              const location  = document.querySelector(targetAttr).offsetTop;
-
-              window.scrollTo(
-                {
-                    left:0,
-                    top: location  - 80,
-                }
-              )
-    }
+    const handleClick = (e) => {
+        e.preventDefault();
+        const targetAttr = e.target.getAttribute('href');
+      
+        if (targetAttr) {
+          if (targetAttr.startsWith('/')) {
+            // Handle URL navigation
+            window.location.href = targetAttr;
+          } else if (targetAttr.startsWith('#')) {
+            // Handle anchor link scrolling
+            const targetElement = document.querySelector(targetAttr);
+            if (targetElement) {
+              const location = targetElement.offsetTop;
+              window.scrollTo({
+                left: 0,
+                top: location - 80,
+                behavior: 'smooth', // Add smooth scrolling effect
+              });
+            }
+          }
+        }
+      };
+      
 
     const toggleMenu = ()=> menuRef.current.classList.toggle('menu__active')
 
@@ -73,9 +81,12 @@ const Header= ({theme,toggleTheme}) => {
         <header className="header" ref={headerRef}>
             <div className="container">
                 <div className="nav__wrapper">
-                    <div className="logo">
-                        <img src={SOM} style={{width:"130px", height: "auto" , marginTop:"0px"}} alt=""/>
-                    </div>
+                <div className="logo">
+  <a href="/" onClick={() => (window.location.href = '/')}>
+    <img src={SOM} style={{ width: "130px", height: "auto", marginTop: "0px" }} alt="" />
+  </a>
+</div>
+
                     {/*=====================Nav==============*/}
                     <div className="navigation" ref={menuRef} onClick={toggleMenu}>
                         <ul className='menu'>

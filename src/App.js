@@ -13,7 +13,7 @@ import Testmonials from './components/UI/Testmonials';
 import NewsLetter from './components/UI/NewsLetter';
 import Footer from './components/UI/Footer';
 import Gallery from './components/UI/Gallery';
-import ProductView from './components/UI/ProductView';
+import Masters from './components/UI/MastersView';
 
 function App() {
   const [theme, setTheme] = useState('');
@@ -31,7 +31,7 @@ function App() {
       <Header theme={theme} toggleTheme={toggleTheme} />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Product" element={<ProductView />} />
+        <Route path="/masters" element={<Masters />} />
       </Routes>
       <Footer />
     </Router>
@@ -44,6 +44,7 @@ function Home() {
       <Hero />
       <Counter />
       <Services />
+
       <Team />
       <NewsLetter />
       <Testmonials />

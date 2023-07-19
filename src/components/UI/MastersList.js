@@ -9,10 +9,17 @@ import Veena from "../../images/Trainer Pictures/Veena .png";
 import Venkat from "../../images/5.png";
 import Vikram from "../../images/4.png";
 import whatsapp from "../../images/3.png";
-import Yashodha from "../../images/2.png"
+import Yashodha from "../../images/2.png";
+import Sheetal from "../../images/10.png"
 
 const products = [
-    {
+  {
+    id: 10,
+    name: 'Sheetal Surana',
+    image: Sheetal,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed tristique lectus, at commodo est. Nulla dapibus scelerisque tellus vitae viverra.',
+  },  
+  {
       id: 1,
       name: 'Akshara',
       image: Akshara,
