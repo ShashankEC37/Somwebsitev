@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "../../styles/services.css";
-import shashank from "../../images/speed reading.jpg"
 import  EEP from "../../images/employee engagement.jpg"
 const Services = () => {
   useEffect(() => {
@@ -26,14 +25,14 @@ const Services = () => {
   const cardData = [
     {
    
-      name: "E E P",
-      program :"Employee Enhancement Program ",
+      name: "Hospitals",
+      program :"Hospitals",
       background: <img src={EEP} style={{ maxWidth:"250px", height: "250px"}}/>,
       description:
         "Level up your productivity and company culture with expertly curated programs "    },
     {
-      name: "P I P",
-      program: "Power of Intentional Performance",
+      name: "MSME",
+      program: "MSME",
       title: " ",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id erat a magna lobortis dictum. Nunc est arcu, lacinia quis sapien placerat, laoreet tincidunt nulla.",
@@ -48,14 +47,14 @@ const Services = () => {
     {
         program: "Recruitment ",  
       name: "Recruitment ",
-      title: "Graphic Designer",
+      title: "",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id erat a magna lobortis dictum. Nunc est arcu, lacinia quis sapien placerat, laoreet tincidunt nulla.",
     },
   ];
 
   return (
-    <div className="Container">
+    <div className="Container1">
        <div className="heading"><h2>Services</h2>
     <div className="card-container">
    
@@ -64,6 +63,7 @@ const Services = () => {
           <div className="card__inner">
             <div className="card__face card__face--front">
                         <h2>{card.program}</h2>
+                        <button></button>
               </div>
             <div className="card__face card__face--back">
               <div className="card__content">

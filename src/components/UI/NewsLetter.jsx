@@ -1,19 +1,25 @@
 import React from "react";
 import "../../styles/newsletter.css"
 const NewsLetter = () =>{
+    const headerStyle = {
+        color: "blue",
+        fontSize: "35px",
+        fontWeight: "bold",
+      };
     return <section className="newsletter">
         <div className="container">
             <div className="newsletter__wrapper">
                 <div className="newsletter__content">
                     <h3 >
-                    Subscribe to our Newsletter  To get latest updates  from   
+                      To Get latest updates  from   
                     </h3>
                   
-                        <h1 style={{color:"#4400ff" , fontSize:"35px"}}>SCHOOL OF MASTERS</h1>
+                    <h1 style={headerStyle}>SCHOOL OF MASTERS</h1>
                 </div>
                 <div className="newsletter__form">
                     <input type="email" placeholder="Email" />
-                    <button className="secondary__btn subscribe__btn">Subscribe Now</button>
+                   
+                    <button className="primary__btn">Subscribe</button>
                 </div>
             </div>
         </div>

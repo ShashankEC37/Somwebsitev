@@ -21,7 +21,7 @@ const Team = () =>{
         <div className="container">
             <div className="slider__content-top">
                     <h2 className="white">Testmonials</h2>
-                    <h2>Trusted by more than <span className="white">500+ Clients</span></h2>
+                    <h2> <span className="white">Trusted by more than500+ Clients</span></h2>
             </div>
             <div className="slider__wrapper">
             <Slider {...settings}>

@@ -1,6 +1,7 @@
-import React, {useRef, useEffect} from 'react';
+    import React, {useRef, useEffect} from 'react';
 import "./header.css";
 import SOM from "../../assets/SOM.png"
+import bootstrap from 'bootstrap'
 
 const nav__links = [
     {
@@ -24,9 +25,10 @@ const nav__links = [
         display: 'Testmonials'
     },
     {
-        path:'#contactus',
-        display: 'Contact us'
+        path:'/Contact ',
+        display: 'Contact Us'
     },
+  
 ]
 
 
@@ -85,11 +87,13 @@ const Header= ({theme,toggleTheme}) => {
   <a href="/" onClick={() => (window.location.href = '/')}>
     <img src={SOM} style={{ width: "130px", height: "auto", marginTop: "0px" }} alt="" />
   </a>
+    
 </div>
-
                     {/*=====================Nav==============*/}
                     <div className="navigation" ref={menuRef} onClick={toggleMenu}>
+               
                         <ul className='menu'>
+                       
                             {
                                 nav__links.map((item,index)=>(
                                     <li className="menu__item" key={index}>
@@ -103,13 +107,15 @@ const Header= ({theme,toggleTheme}) => {
                                     </li>
                                 ))
                             }
+                          
                         </ul>
                     </div>
                               {/*=====================Lightmode==============*/}
 
                          <span className="mobile__menu" onClick={toggleMenu}>
-                         <i class="ri ri-menu-line" style={{fontSize: "2rem", marginRight:"20px"}}></i>
-
+                                
+                      
+<i class="ri ri-menu-line" style={{fontSize: "2rem", marginRight:"20px"}}></i>
                         </span>
                 </div>
             </div>

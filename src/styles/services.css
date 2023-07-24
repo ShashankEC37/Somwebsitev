@@ -12,13 +12,14 @@
   
 
   }
-  .service__content{
-    background: white;
+  .Container1{
+    background:#d4e8fa;;;
+    padding-bottom: 60px;
     
   }
 
   .heading{
-    background: white;
+    background:#d4e8fa;;
     text-align: center;
     justify-content: center;
     padding: 50px;
@@ -32,7 +33,7 @@
   
   .card-container {
     padding-top: 40px;
-    background: white;
+    background:#d4e8fa;;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -95,7 +96,7 @@
   }
   
   .card__face--front {
-    background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-image: linear-gradient(to bottom right,  #379cf6,#090238);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,7 +120,7 @@
   
   .card__header {
     position: relative;
-    padding: 30px 30px 40px;
+    padding: 20px 30px 40px;
   }
   
   .card__header:after {
@@ -130,7 +131,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
+    background-image: linear-gradient(to bottom right,  #379cf6,#090238);
     z-index: -1;
     border-radius: 0px 0px 50% 0px;
   }
@@ -152,7 +153,7 @@
   
   .card__header h2 {
     color: #FFF;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;

@@ -14,6 +14,8 @@ import NewsLetter from './components/UI/NewsLetter';
 import Footer from './components/UI/Footer';
 import Gallery from './components/UI/Gallery';
 import Masters from './components/UI/MastersView';
+import ContactUs from "./components/UI/Contact";
+import About from"./components/About/About"
 
 function App() {
   const [theme, setTheme] = useState('');
@@ -32,6 +34,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/masters" element={<Masters />} />
+        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
     </Router>

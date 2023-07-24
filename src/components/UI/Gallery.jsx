@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useState }  from 'react';
 import hospital from '../../images/hospital.jpg'
 import ECOSales from '../../images/ECOSales.jpeg'
 import interviewCollege from "../../images/interviewCollege.jpg"
@@ -8,12 +8,26 @@ import one from "../../images/121.jpg"
 import speed from "../../images/speed reading.jpg"
 import college from "../../images/college.jpg"
 import "../../styles/gallery.css"
+  
 const Gallery = () => {
+  const [animationPaused, setAnimationPaused] = useState(false);
+
+  const handleMouseEnter = () => {
+    setAnimationPaused(true);
+  };
+
+  const handleMouseLeave = () => {
+    setAnimationPaused(false);
+  };
   return (
     <div className="container1">
-    <section className="gallery">
+    {/* <section className="gallery">
       <h3 className="gallery-heading">GALLERY</h3>
-      <div className="box">
+      <div
+          className={`box ${animationPaused ? 'paused' : ''}`}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
   <span style={{ '--i': 1 }}>
     <img src={college} alt="" style={{ width: 'auto', height: '150px' }} />
   </span>
@@ -41,7 +55,7 @@ const Gallery = () => {
 </div>
 
       <h3 className="gallery-heading">GALLERY</h3>
-    </section>
+    </section> */}
     </div>
   );
 };

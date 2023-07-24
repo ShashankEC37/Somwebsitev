@@ -70,7 +70,9 @@
     align-items: center;
     column-gap: 2rem;
 }
-
+.description{
+    font-size: med;
+}
 @media only screen and (max-width:768px){
         .team__item{
             width:30%;

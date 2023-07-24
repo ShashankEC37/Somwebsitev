@@ -8,7 +8,7 @@
     --dark: #F3F3F3;
     --light: #F3F3F3;
   
-  --primary-color: #379cf6;
+  --primary-color: #b0d9fd;
   --heading-color: #090238;
   --btn-primary-bg: #379cf6;
   --btn-secondary-bg: #090238;  
@@ -22,7 +22,7 @@
     rgba(29, 129, 176, 1) 55%,
     rgba(35, 93, 173, 1) 75%
   );
-  --body-bg: rgb(19, 92, 228);
+  --body-bg: #1a0f4f;
   --newsletter-bg: linear-gradient(
     90deg,
     rgba(27, 9, 115, 1) 20%,
@@ -37,7 +37,7 @@
 
 .light-theme {
   --body-bg: rgb(255, 255, 255);
-  --heading-color: #0c123d;
+  --heading-color: #000630;
   --btn-secondary-bg: #1b2352;
   --btn-primary-bg: #fff;
   --primary-color: #1b2352;

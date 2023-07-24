@@ -4,11 +4,12 @@ import team01 from "../../images/team-01.png";
 import team02 from "../../images/team-02.png";
 import team03 from "../../images/team-03.png";
 import team04 from "../../images/team-04.png";
+import sheetal from "../../images/10.png"
 import Clients from "./Clients";
 
 const teamMembers=[
     {
-        imgUrl: team01,
+        imgUrl: sheetal,
         name: 'Sheetal Surana',
         position: 'Founder & CEO'
     },
@@ -38,7 +39,7 @@ const Team = () =>{
         <Clients />
             <div className="team__content">
         
-                <h2 >Meet Our core <span style={{color:"white"}}>Team</span>
+                <h2 ><span style={{color:"white"}}>Meet Our core Team</span>
                 </h2>
             </div>
             <div className="team__wrapper">
@@ -50,7 +51,7 @@ const Team = () =>{
                     </div>
                     <div className="team__details">
                         <h4>{item.name}</h4>
-                        <p className="description">{item.position}</p>
+                        <p className="description" style={{fontSize:"small"}}>{item.position}</p>
                         <div className="team__member-social">
                             <span><i class="ri-linkedin-box-fill"></i></span>
                             <span><i class="ri-mail-line"></i></span>

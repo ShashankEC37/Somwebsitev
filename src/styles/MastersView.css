@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color:  #090238;;
 }
 
 .title {
@@ -24,11 +25,13 @@
   flex-direction: column;
   align-items: center;
   width: 200px;
+  height: 220px;
   border-radius: 20%;
-  border: 1px solid #ccc;
+ 
   border-radius: 8px;
   overflow: hidden; /* Ensure the overlay stays within the boundaries */
   transition: transform 0.3s; /* Add a smooth transition effect */
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .product-card:hover {
@@ -54,13 +57,16 @@
 }
 
 .name {
+  padding: 7px;
   position: absolute;
   bottom: 1px;
   border-radius: 8px;
   left: 50%;
+  color:white;
   transform: translateX(-50%);
   font-size: 16px;
   text-align: center;
+  background: #090238;;
   width: 100%;
   z-index: 2;
 }

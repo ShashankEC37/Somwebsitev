@@ -1,13 +1,11 @@
 import Akshara from "../../images/1.png"
 import Ami from "../../images/9.png";
 import Naveen from "../../images/8.png";
-import Bansal from "../../images/Trainer Pictures/Neetu Bansal .png";
+import Bansal from "../../images/11.png";
 import Nikhil from "../../images/7.png";
-import Rooshi from "../../images/Trainer Pictures/Rooshi .png";
+import Rooshi from "../../images/12.png";
 import Shalini from "../../images/6.png";
-import Veena from "../../images/Trainer Pictures/Veena .png";
 import Venkat from "../../images/5.png";
-import Vikram from "../../images/4.png";
 import whatsapp from "../../images/3.png";
 import Yashodha from "../../images/2.png";
 import Sheetal from "../../images/10.png"
@@ -68,12 +66,7 @@ const products = [
       image: Shalini,
       description: 'Nam consectetur orci nec metus feugiat, vel placerat sem bibendum. Aliquam gravida placerat leo, id ullamcorper dolor facilisis vel.',
     },
-    {
-      id: 10,
-      name: 'Veena',
-      image: Veena,
-      description: 'Morbi suscipit dui id suscipit bibendum. Etiam rutrum placerat dolor, vel aliquet tortor lacinia a. Vestibulum ut mauris.',
-    },
+   
     {
         id: 12,
         name: 'whatsapp',

@@ -1,7 +1,9 @@
-.footer{
+.footer {
     padding: 60px 0px;
     background: rgb(59, 59, 59);
-}
+
+  }
+  
 
 .footer__wrapper{
     display: flex;
@@ -9,6 +11,7 @@
 }
 
 .footer__logo{
+
     width: 40%;
 }
 
@@ -65,3 +68,25 @@
             flex-wrap: wrap;
         }
 }
+/* Assuming that the breakpoint for mobile is 768px */
+/* Assuming that the breakpoint for mobile is 768px */
+/* Assuming that the breakpoint for mobile is 768px */
+@media (max-width: 768px) {
+    .footer__wrapper {
+      display: block; /* Display each section as a block (one below the other) */
+      text-align: center; /* Center the content inside each block */
+    }
+  
+    .footer__quick-links {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+    .footer__logo p{
+       
+    }
+    .footer__logo{
+        padding: 10px;
+    }
+  }
+  
+  
