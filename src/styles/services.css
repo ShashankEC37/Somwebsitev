@@ -150,6 +150,26 @@
     border: 5px solid #FFF;
     object-fit: cover;
   }
+  /* services.css */
+
+/* Add the styles for the "Know More" link */
+.know-more-link {
+  display: block;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Style the link on hover */
+.know-more-link:hover {
+  background-color: #003399; /* A slightly darker shade on hover */
+  text-decoration: none;
+}
+
   
   .card__header h2 {
     color: #FFF;

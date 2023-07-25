@@ -1,0 +1,121 @@
+/* aboutUs.css */
+
+/* Base styles for larger screens */
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .about-us-section {
+    padding: 40px;
+ 
+    color: white;
+  }
+  
+  .about-us-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .about-us-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+  
+  .about-us-section p {
+    padding: 20px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    text-justify: distribute;
+    word-spacing:-2px;
+    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .about-us-section ol,
+  .about-us-section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .about-us-section li {
+    margin-bottom: 10px;
+  }
+  
+  .about-us-section .section-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+  }
+  
+  .about-us-section:nth-child(even) {
+    background-color: #1a0f4f;
+  }
+  
+  .about-us-section:nth-child(even) h2 {
+    color: white;
+  }
+  
+  .about-us-section:nth-child(odd) {
+    background-color: white;
+  }
+  .about-us-section:nth-child(odd) p{
+    color: #1a0f4f;
+  }
+ 
+  
+  /* Media queries for responsiveness */
+  
+  /* For screens up to 768px wide (e.g., tablets and smaller devices) */
+  @media screen and (max-width: 768px) {
+    .about-us-section {
+      padding: 20px;
+      text-align: justify;
+    }
+  
+    .about-us-section h2 {
+      font-size: 20px;
+    }
+  
+    .about-us-section h1 {
+      font-size: 30px;
+    }
+  
+    .about-us-section p {
+      font-size: 1.2rem;
+      padding: 10px;
+      text-justify: distribute;
+      word-spacing: -2px;
+    }
+  
+    .about-us-section .section-image {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  
+  /* For screens up to 480px wide (e.g., smartphones) */
+  @media screen and (max-width: 480px) {
+    .about-us-section h2 {
+      font-size: 18px;
+    }
+  
+    .about-us-section h1 {
+      font-size: 26px;
+    }
+  
+    .about-us-section p {
+        text-align: justify;
+        word-spacing: -2px;
+      font-size: 1rem;
+    }
+    .about-us-section:nth-child(odd) p{
+        color: #1a0f4f;
+      }
+
+  }
+  

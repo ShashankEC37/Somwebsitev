@@ -2,8 +2,6 @@ import React from "react";
 import "../../styles/Clients.css"
 const importAll = (r) => r.keys().map(r);
 const imagesleft = importAll(require.context('../../images/Companies Logo/left', false, /\.(png|jpe?g|svg)$/));
-const imagesright = importAll(require.context('../../images/Companies Logo/right', false, /\.(png|jpe?g|svg)$/));
-
 const Clients = () => {
   const companies = imagesleft.map((image, index) => ({
     id: index + 1,

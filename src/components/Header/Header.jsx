@@ -13,12 +13,12 @@ const nav__links = [
         display: 'Masters'
     },
     {
-        path:'#services',
+        path:'/services',
         display: 'Services'
     },
     {
-        path:'#Gallery',
-        display: 'Gallery'
+        path:'/about',
+        display: 'AboutUs'
     },
     {
         path:'#testmonials',

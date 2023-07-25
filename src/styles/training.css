@@ -1,0 +1,164 @@
+/* Global styles */
+.skew {
+    margin-top: 40px;
+    position: relative;
+  }
+  
+  .skew .skew-image3 {
+    animation: slideInFromBehind 1s ease-in-out forwards;
+    background-image: url(../images/121.jpg);
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    right: 5%;
+    top: 5%;
+    bottom: 5%;
+    
+    background-size: cover;
+    background-position: center 70% ;
+  }
+  @keyframes slideInFromBehind {
+    0% {
+      transform: translateX(-90%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+  
+  
+  .skew .skew-content-bg {
+    position: absolute;
+    width: 55%;
+    min-height: 350px;
+    top: 0%;
+    left: -30px;
+    right: -20px;
+    box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+    background: #03a9f4;
+    background-position: center left;
+    transform: skew(-6deg, 0deg);
+   
+  }
+  
+  .skew .skew-content {
+    position: relative;
+    font-size: 1.4rem;
+    color: white;
+    padding: 20px 10px;
+    
+  }
+  .skew .skew-content p{
+    width: 50%;
+    position: relative;
+    font-size: 1.4rem;
+    color: white;
+    padding: 10px 10px;
+  
+  }
+  
+  .btn {
+    border: 2px solid white;
+    border-radius: 0px;
+    background-color: none;
+    color: white;
+    padding: 10px 22px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .top-bar {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .container1 {
+   
+    background-color: white;
+    max-width: 1140px;
+    margin: auto;
+    padding: 0px 15px;
+  }
+  
+  
+  
+  
+  
+  /* Map styles */
+  .map {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    --d: 150px; /* Set the desired size for each node (increased from 80px to 100px) */
+    --node-count: 7; /* Set the total number of nodes, including the core node */
+    --r: 230px; /* Set the desired distance from the core node */
+    --s: calc(2 * var(--r) + var(--d)); /* container size */
+    position: relative;
+    width: var(--s);
+    height: var(--s);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .map .node {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex; /* Add display: flex to center the content horizontally and vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin: calc(-0.5 * var(--d));
+    width: var(--d);
+    height: var(--d);
+    --az: calc(var(--i) * 1turn / var(--node-count));
+    transform: rotate(var(--az)) translate(var(--r)) rotate(calc(-1 * var(--az)));
+    background: rgb(64, 0, 255);
+    border-radius: 50%;
+    color: white; /* Set text color to white */
+    font-size: 16px; /* Adjust font size as needed */
+    text-align: center; /* Center the text within the node */
+  }
+  
+  .map .node.core {
+    --d: 200px; /* Set the size of the core node */
+    background: rgb(6, 161, 218);
+    display: flex; /* Center the content horizontally and vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    width: var(--d);
+    height: var(--d);
+    color: white; /* Set text color to white */
+    font-size: 16px; /* Adjust font size as needed */
+    text-align: center; /* Center the text within the core node */
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 767px) {
+    .skew .skew-content {
+      font-size: 1.2rem; /* Decrease the font size for mobile devices */
+    }
+  
+    .map .node {
+      --d: 80px; /* Decrease the size of each node for mobile devices */
+      --r: 150px;
+      font-size: 14px; /* Decrease the font size for the text inside the nodes for mobile devices */
+    }
+  
+    .map .node.core {
+      --d: 120px; /* Decrease the size of the core node for mobile devices */
+      font-size: 16px; /* Adjust the font size for the text inside the core node for mobile devices */
+    }
+  
+    .container1 {
+      padding: 0px 10px; /* Adjust the container padding for mobile devices */
+    }
+  }
+  

@@ -35,7 +35,7 @@ const Masters = () => {
   };
 
   return (
-    <div className="container1">
+      <>
       <h2 className="title">Masters</h2>
       <div className="product-view-container">
         {products.map((product) => (
@@ -82,7 +82,8 @@ const Masters = () => {
           </div>
         )}
       </Modal>
-    </div>
+      </>
+    
   );
 };
 

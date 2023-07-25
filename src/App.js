@@ -15,7 +15,10 @@ import Footer from './components/UI/Footer';
 import Gallery from './components/UI/Gallery';
 import Masters from './components/UI/MastersView';
 import ContactUs from "./components/UI/Contact";
-import About from"./components/About/About"
+import Hospital from './components/Serviceslist/Hospital';
+import AboutUs from"./components/About/About";
+import Msme from "./components/Serviceslist/msme"
+import Training from "./components/Serviceslist/PersonalTraining"
 
 function App() {
   const [theme, setTheme] = useState('');
@@ -35,7 +38,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/masters" element={<Masters />} />
         <Route path="/contact" element={<ContactUs />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<AboutUs />} />
+         <Route path="/hospital" element={<Hospital />} /> 
+         <Route path="/msme" element={<Msme />} /> 
+         <Route path="/personaltraining" element={<Training />} />
+
       </Routes>
       <Footer />
     </Router>

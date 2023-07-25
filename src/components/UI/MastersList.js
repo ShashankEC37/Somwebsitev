@@ -42,6 +42,7 @@ const products = [
       image: Naveen,
       description: 'Suspendisse potenti. Nullam bibendum nisl non eros aliquam, in luctus quam pharetra. Quisque lacinia purus id sem interdum gravida.',
     },
+    
     {
       id: 5,
       name: 'Neetu Bansal',
