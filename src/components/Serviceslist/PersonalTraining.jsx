@@ -96,7 +96,121 @@ const Training = () => {
         
               </div>
     </div>  
-    <CourseDetails />
+     <div>
+      <header>
+       
+        <h1 style={{color:'#000d6b'}}>Course Highlights </h1>
+      </header>
+
+      <ul className="timeline">
+        {/* Item 1 */}
+        <li>
+          <div className="direction-r">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+          
+              <span className="time-wrapper">
+                <span className="time">Lifestyle Design</span>
+              </span>
+            </div>
+            
+          </div>
+        </li>
+
+        {/* Item 2 */}
+        <li>
+          <div className="direction-l">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+             
+              <span className="time-wrapper">
+                <span className="time">Unfolding Patterns of Growth</span>
+              </span>
+            </div>
+          
+          </div>
+        </li>
+
+        {/* Item 3 */}
+        <li>
+          <div className="direction-r">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+              <span className="time-wrapper">
+                <span className="time">Identifying passion and perceiving it</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+
+        <li>
+          <div className="direction-l">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+           
+              <span className="time-wrapper">
+                <span className="time">Build a Self Brand</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+        <li>
+          <div className="direction-r">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+              <span className="time-wrapper">
+                <span className="time">Creating Accountability Structure</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+        <li>
+          <div className="direction-l">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+           
+              <span className="time-wrapper">
+                <span className="time">Powerful conversations</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+        <li>
+          <div className="direction-r">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+              <span className="time-wrapper">
+                <span className="time">Time Management</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+        <li>
+          <div className="direction-l">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+           
+              <span className="time-wrapper">
+                <span className="time">Work-Life Balance</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+        
+      </ul>
+    </div>
     </div>
     
   );

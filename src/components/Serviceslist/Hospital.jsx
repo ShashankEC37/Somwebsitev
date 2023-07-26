@@ -3,6 +3,7 @@ import "../../styles/hospital.css"; // Import your custom CSS stylesheet
 import hospital from "../../images/hospital2.jpg"
 import hospital2 from "../../images/hospital.jpg"
 import hospital3 from "../../images/hospital3.jpg"
+import "../../styles/CourseDetails.css"; // Import your
 
 
 
@@ -85,20 +86,98 @@ const Hospital = () => {
     </div>
            
                
+       
+
+
+    <div>
+      <header>
+       
+        <h1 style={{color:'#000d6b'}}>Course Highlights </h1>
+      </header>
+
+      <ul className="timeline">
+        {/* Item 1 */}
+        <li>
+          <div className="direction-r">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
           
-     
-      <div className="container1">
-      <div className="map">
-        <div className="node core">Course Outcome   </div>
-        <div className="node" style={{ '--i': 1 }}>Escorting them to lead a robust life again</div>
-        <div className="node" style={{ '--i': 2 }}>Empowering them! Keeps their fear at bay</div>
-        <div className="node" style={{ '--i': 3 }}>Your enrollment is our world of honour!</div>
-        <div className="node" style={{ '--i': 4 }}>Right guidance builds secure zone</div>
-        <div className="node" style={{ '--i': 5 }}>Motivation is a key to heal faster</div>
-        <div className="node" style={{ '--i': 6 }}>Creating oneness with joy again</div>
-      </div>
-    </div>  
-    <CourseDetails />
+              <span className="time-wrapper">
+                <span className="time">Escorting them to lead a robust life again</span>
+              </span>
+            </div>
+            
+          </div>
+        </li>
+
+        {/* Item 2 */}
+        <li>
+          <div className="direction-l">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+             
+              <span className="time-wrapper">
+                <span className="time">Empowering them! Keeps their fear at bay </span>
+              </span>
+            </div>
+          
+          </div>
+        </li>
+
+        {/* Item 3 */}
+        <li>
+          <div className="direction-r">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+              <span className="time-wrapper">
+                <span className="time">Your enrollment is our world of honour!</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+
+        <li>
+          <div className="direction-l">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+           
+              <span className="time-wrapper">
+                <span className="time">Right guidance builds secure zone</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+        <li>
+          <div className="direction-r">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+              <span className="time-wrapper">
+                <span className="time">Motivation is a key to heal faster</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+        <li>
+          <div className="direction-l">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+           
+              <span className="time-wrapper">
+                <span className="time">Creating oneness with joy again</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+      </ul>
+    </div>
     </div>
     
   );

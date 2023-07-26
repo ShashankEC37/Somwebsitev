@@ -2,9 +2,7 @@ import React, { useEffect } from "react";
 import "../../styles/msme.css"; // Import your custom CSS stylesheet
 import msme from "../../images/msme.jpg"
 import msme2 from "../../images/msme2.jpg"
-
-
-import CourseDetails from "./CourseDetails";
+import "../../styles/CourseDetails.css"; 
 const Msme = () => {
     useEffect(() => {
         const maps = document.querySelectorAll('.map');
@@ -78,24 +76,132 @@ const Msme = () => {
     </div>
   </div>
       
-     
-      <div className="container1" style={{marginTop: "40px"}}>
-      <div className="map">
-        <div className="node core">Course Outcome   </div>
-        <div className="node" style={{ '--i': 1 }}>Organizational Vision Driven</div>
-        <div className="node" style={{ '--i': 2 }}>Organization Culture and Values</div>
-        <div className="node" style={{ '--i': 3 }}>Your enrollment is our world of honour!</div>
-        <div className="node" style={{ '--i': 4 }}>Accountability</div>
-        <div className="node" style={{ '--i': 5 }}>Time Management</div>
-        <div className="node" style={{ '--i': 6 }}>Language Proficiency</div>
-        <div className="node" style={{ '--i': 7 }}>Happiness Ratio</div>
-        <div className="node" style={{ '--i': 8 }}>Work-Life Balance</div>
-        <div className="node" style={{ '--i': 9 }}>	Financial Freedom</div>
+  
+    <div>
+      <header>
+       
+        <h1 style={{color:'#000d6b'}}>Course Highlights </h1>
+      </header>
+
+      <ul className="timeline">
+        {/* Item 1 */}
+        <li>
+          <div className="direction-r">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+          
+              <span className="time-wrapper">
+                <span className="time">Organizational Vision Driven</span>
+              </span>
+            </div>
+            
+          </div>
+        </li>
+
+        {/* Item 2 */}
+        <li>
+          <div className="direction-l">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+             
+              <span className="time-wrapper">
+                <span className="time">Organization Culture and Values</span>
+              </span>
+            </div>
+          
+          </div>
+        </li>
+
+        {/* Item 3 */}
+        <li>
+          <div className="direction-r">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+              <span className="time-wrapper">
+                <span className="time">Your enrollment is our world of honour!</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
 
 
-      </div>
-    </div>  
-    <CourseDetails />
+        <li>
+          <div className="direction-l">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+           
+              <span className="time-wrapper">
+                <span className="time">Accountability</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+        <li>
+          <div className="direction-r">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+              <span className="time-wrapper">
+                <span className="time">Time Management</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+        <li>
+          <div className="direction-l">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+           
+              <span className="time-wrapper">
+                <span className="time">Language Proficiency</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+        <li>
+          <div className="direction-r">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+              <span className="time-wrapper">
+                <span className="time">Happiness Ratio</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+        <li>
+          <div className="direction-l">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+           
+              <span className="time-wrapper">
+                <span className="time">Work-Life Balance</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+
+        <li>
+          <div className="direction-r">
+            <div className="flag-wrapper">
+              <span className="hexa"></span>
+              <span className="time-wrapper">
+                <span className="time">Financial Freedom</span>
+              </span>
+            </div>
+           
+          </div>
+        </li>
+      </ul>
+    </div>
     </div>
     
   );
