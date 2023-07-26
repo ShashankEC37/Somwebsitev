@@ -18,7 +18,7 @@ import ContactUs from "./components/UI/Contact";
 import Hospital from './components/Serviceslist/Hospital';
 import AboutUs from"./components/About/About";
 import Msme from "./components/Serviceslist/msme"
-import Training from "./components/Serviceslist/PersonalTraining"
+import Training from "./components/Serviceslist/PersonalTraining";
 
 function App() {
   const [theme, setTheme] = useState('');
@@ -42,6 +42,7 @@ function App() {
          <Route path="/hospital" element={<Hospital />} /> 
          <Route path="/msme" element={<Msme />} /> 
          <Route path="/personaltraining" element={<Training />} />
+         <Route path="/services" element={<Services />} />
 
       </Routes>
       <Footer />

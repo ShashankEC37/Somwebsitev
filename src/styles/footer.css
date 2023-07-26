@@ -55,7 +55,7 @@
 }
 
 .quick__link-item a:hover{
-    color: 
+    color: #379cf6;
 }
 
 
@@ -89,9 +89,7 @@
       margin-bottom: 20px;
       width: 100%;
     }
-    .footer__logo p{
-       
-    }
+
     .footer__logo{
         padding: 10px;
     }

@@ -80,6 +80,7 @@ const Header= ({theme,toggleTheme}) => {
     const toggleMenu = ()=> menuRef.current.classList.toggle('menu__active')
 
     return (
+   
         <header className="header" ref={headerRef}>
             <div className="container">
                 <div className="nav__wrapper">
@@ -120,6 +121,7 @@ const Header= ({theme,toggleTheme}) => {
                 </div>
             </div>
         </header>
+   
     );
 };
 

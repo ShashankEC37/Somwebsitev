@@ -5,35 +5,43 @@ import "../../styles/footer.css";
 const Footer = () => {
   const quickLinks01 = [
     {
-      path: "#",
+      path: "/hospital",
       display: "Hospitals",
     },
     {
-      path: "#",
+      path: "/msme",
       display: "MSME",
     },
     {
-      path: "#",
+      path: "/personatraining",
       display: "121 Performance Coaching",
     },
     {
       path: "#",
       display: "Recruitments",
     },
-  ];
-
-  const quickLinks02 = [
     {
       path: "#",
-      display: "+91 8105404653",
+      display: "Institute Model",
     },
     {
       path: "#",
-      display: "sheetal@schoolofmasters.co.in",
+      display: "Team Building Activity",
     },
-
   ];
 
+  const email = "sheetal@schoolofmasters.co.in";
+  const subject = "Enquire About -";
+
+  const handleEmailClick = () => {
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
+  };
+
+  const phoneNumber = '+91 8105404653';
+
+  const handlePhoneClick = () => {
+    window.location.href = `tel:${phoneNumber}`;
+  };
   return (
     <footer className="footer">
       <div className="container">
@@ -54,7 +62,7 @@ const Footer = () => {
             <div className="quick__links-title">Services</div>
             <ul className="quick__links">
               {quickLinks01.map((item, index) => (
-                <li className="quick__link-item" key={index}>
+                <li className="quick__link-item" >
                   <a href={item.path}>{item.display}</a>
                 </li>
               ))}
@@ -64,11 +72,19 @@ const Footer = () => {
           <div className="footer__quick-links">
             <div className="quick__links-title">Contact Us</div>
             <ul className="quick__links">
-              {quickLinks02.map((item, index) => (
-                <li className="quick__link-item" key={index}>
-                  <a href={item.path}>{item.display}</a>
+             
+                <li className="quick__link-item" >
+                <a href="#" onClick={handlePhoneClick}>
+        {phoneNumber}
+      </a>
+                  </li>
+                <li>
+
+                <a href={`mailto:${email}?subject=${encodeURIComponent(subject)}`} onClick={handleEmailClick} style={{ color: "#090238" }}>
+          {email}
+        </a>
                 </li>
-              ))}
+         
             </ul>
           </div>
 
@@ -76,7 +92,7 @@ const Footer = () => {
             <div className="quick__links-title">Connect with Us</div>
             <ul className="quick__links">
               <li className="quick__link-item">
-              <a href="https://www.linkedin.com/company/school-of-masters-india/" target="_blank">
+              <a href="https://www.linkedin.com/company/school-of-masters-india/" target="_blank" style={{color:"blue"}}>
                 <i
                   className="ri-linkedin-box-fill"
                   style={{ fontSize: "24px", color: "#090238" }}

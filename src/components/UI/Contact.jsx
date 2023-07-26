@@ -1,11 +1,17 @@
 import React from 'react';
 import "../../styles/Contact.css";
 import "../../styles/responsive.css";
-import { RiLinkedinFill, RiMailFill, RiFacebookBoxFill, RiInstagramFill } from 'react-icons/ri';
+import { RiLinkedinFill, RiMailFill, RiFacebookBoxFill, RiInstagramFill, RiYoutubeFill } from 'react-icons/ri';
 
 
 
 const ContactUs = () => {
+  const email = "sheetal@schoolofmasters.co.in";
+  const subject = "Enquire About -";
+
+  const handleEmailClick = () => {
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
+  };
   return (
     <div className="contact_us_6">
     <div className="responsive-container-block container">
@@ -20,9 +26,9 @@ const ContactUs = () => {
           <div className="responsive-container-block" id="i2cbk">
             <div className="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i10mt-3">
               <p className="text-blk input-title">
-                FIRST NAME
+                 NAME
               </p>
-              <input className="input" id="ijowk-3" name="FirstName" placeholder="Please enter first name..." />
+              <input className="input" id="ijowk-3" name="FirstName" placeholder="Please enter  name..." />
             </div>
             <div className="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="ip1yp">
               <p className="text-blk input-title">
@@ -60,8 +66,12 @@ const ContactUs = () => {
             <a href="https://www.linkedin.com/company/school-of-masters-india/" target="_blank">
               <RiLinkedinFill  className='ri-linkedin-fill' />
             </a>
-            <a href="Mail Link" target="_blank">
+           
+            <a  href={`mailto:${email}?subject=${encodeURIComponent(subject)}`} onClick={handleEmailClick} target="_blank">
               <RiMailFill   className='ri-mail-fill'/>
+            </a>
+            <a href="https://www.facebook.com/people/SOM/100068256820872/" target="_blank">
+              <RiYoutubeFill  className='ri-facebook-box-fill'/>
             </a>
             <a href="https://www.facebook.com/people/SOM/100068256820872/" target="_blank">
               <RiFacebookBoxFill  className='ri-facebook-box-fill'/>

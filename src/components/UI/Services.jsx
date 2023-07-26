@@ -4,26 +4,7 @@ import EEP from "../../images/employee engagement.jpg";
 import { Link } from "react-router-dom";
 
 const Services = () => {
-  useEffect(() => {
-    const cards = document.querySelectorAll(".card__inner");
-
-    const handleHover = (event) => {
-      event.currentTarget.classList.toggle("is-flipped");
-    };
-
-    cards.forEach((card) => {
-      card.addEventListener("mouseenter", handleHover);
-      card.addEventListener("mouseleave", handleHover);
-    });
-
-    return () => {
-      cards.forEach((card) => {
-        card.removeEventListener("mouseenter", handleHover);
-        card.removeEventListener("mouseleave", handleHover);
-      });
-    };
-  }, []);
-
+ 
   const cardData = [
     {
       program: "Hospitals",
@@ -47,7 +28,7 @@ const Services = () => {
       path: "/msme",
     },
     {
-      program: "121 Performance Coaching",
+      program: "121 / Accountability Coaching",
       name: "121 Coaching",
       title: " ",
       description:
@@ -62,39 +43,43 @@ const Services = () => {
         "",
       path: "/recruitment",
     },
+    {
+      program: "Blue Collar Staff",
+      name: "Blue Collar Staff",
+      title: "",
+      description:
+        "",
+      path: "/blue-collar-staff",
+    },
+    {
+      program: "Institute Model",
+      name: "Institute Model",
+      title: "",
+      description:
+        "",
+      path: "/Institute-Model",
+    },
   ];
 
   return (
     <div className="Container1">
-      <div className="heading">
-        <h2>Services</h2>
-      </div>
-      <div className="card-container">
-        {cardData.map((card, index) => (
-          <div className="card" key={index}>
+    <div className="heading">
+      <h2>Services</h2>
+    </div>
+    <div className="card-grid">
+      {cardData.map((card, index) => (
+        <div className="card" key={index}>
+          <a href={card.path}>
             <div className="card__inner">
               <div className="card__face card__face--front">
                 <h2>{card.program}</h2>
-                <button></button>
-              </div>
-              <div className="card__face card__face--back">
-                <div className="card__content">
-                  <div className="card__header">
-                    <h2>{card.name}</h2>
-                  </div>
-                  <div className="card__body">
-                    <p>{card.description}</p>
-                    <Link to={card.path}>
-                      <button className="know-more-link">Know More</button>
-                    </Link>
-                  </div>
-                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
+          </a>
+        </div>
+      ))}
     </div>
+  </div>
   );
 };
 
