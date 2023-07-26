@@ -1,89 +1,88 @@
-/* Global styles */
-.skew {
-    margin-top: 40px;
-    position: relative;
-  }
-  
-  .skew .skew-image2 {
-    background-image: url(../images/msme.jpg);
-    animation: slideInFromBehind 1s ease-in-out forwards;
-    position: absolute;
-    width: 50%;
-    height: 300px;
-    right: 5%;
-    top: 5%;
-    bottom: 5%;
-    background-size: cover;
-    background-position: center 10%;
-  }
-  @keyframes slideInFromBehind {
-    0% {
-      transform: translateX(-90%);
-    }
-    100% {
-      transform: translateX(0%);
-    }
-  }
-  
-  
-  
-  .skew .skew-content-bg {
-    position: absolute;
-    width: 55%;
-    min-height: 300px;
-    top: 0%;
-    left: -30px;
-    right: -20px;
-    box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
-    background: #03a9f4;
-    background-position: center left;
-    transform: skew(-6deg, 0deg);
-   
-  }
-  
-  .skew .skew-content {
-    position: relative;
-    font-size: 1.4rem;
-    color: white;
-    padding: 20px 10px;
-    
-  }
-  .skew .skew-content p{
-    width: 50%;
-    position: relative;
-    font-size: 1.4rem;
-    color: white;
-    padding: 10px 10px;
-  
-  }
-  
-  .btn {
-    border: 2px solid white;
-    border-radius: 0px;
-    background-color: none;
-    color: white;
-    padding: 10px 22px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  .btn:hover {
-    background-color: white;
-    color: black;
-  }
-  
-  .top-bar {
-    background-color: darkblue;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-  }
+small{
+  color: #ffffff;
+}
+/* styles.css */
 
-  .top-bar h2{
+.dark-blue-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #1a237e;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+}
 
-    color: white;
-   
-  }
+.dark-blue-button:hover {
+  background-color: #0d1c61;
+}
+
+p{
+      font-size:0.9em;
+      line-height: 23px;
+      font-weight: 300;
+      justify-content: center ;
+}
+
+h1{
+  margin:0;
+}
+.skewed {
+  width: 45em;
+  color: #ffffff;
+  display: flex;
+  background: #0095ff;
+
+  margin: 2em 0;
+  box-shadow: 0 0 15px rgba(0,0,0,7); 
+}
+.text{
+  padding: 1.5em;
+  width:50%;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+
+}
+.image{
+  width: 50%;
+  height: 17em;
+  position: relative;
+  overflow: hidden;
+
+}
+.image::before{
+  content:'';
+  position:absolute;
+  left:-6.1em;
+  top:50%;
+  transform: 
+  translateY(-50%) rotate(20deg);
+  background:#0095ff;
+  width:40%;
+  height: 140%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 7);
+}
+
+.skewed-left .image::before {
+  transform:
+  translateY(-50%) rotate(-20deg);
+  left: initial;
+  right:-6.1em;
+}
+
+img{
+  width: 140%;
+}
   
   .container1 {
     background-color: white;

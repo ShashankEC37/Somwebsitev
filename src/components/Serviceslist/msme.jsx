@@ -16,29 +16,66 @@ const Msme = () => {
       }, []);
   return (
     <div style={{backgroundColor:"white"}}>
-      <div className="top-bar">
-        <h2>MSME</h2>
+    <div className="top-bar">
+      <h2 style={{color:'white'}}>MSME</h2>
+    </div>
+      <div className="container1">
+    <div className="skewed">
+      <div className="text">
+        <p>
+        Training results in increased morale of employees because of reduction in dissatisfaction at work, reduced complaints, and reduced absenteeism, and increased interest in work during the post-training period. Heightened morale results in increased loyalty to the organization. It facilitates growth at a professional and personal level.
+              </p>
+            
+        <a href="#"><strong>Read more &rarr;</strong></a>
       </div>
-      <div className="container">
-        <div className="skew container-fluid clearfix">
-          <div className="skew-image2" ></div>
-          <div className="row">
-            <div className="skew-wrapper col-lg-6 col-md-8 col-xs-12">
-              <div className="skew-content-bg"></div>
-              <div className="skew-content">
-               
-                <p>
-                At SOM, we provide comprehensive training programs tailored specifically to meet the unique needs of Micro, Small and Medium Enterprises (MSME’s) in various sectors.
-                </p>
-                <p>
-                Our programs are designed to facilitate growth, both at a professional and personal level, for employees and employers alike.
-                </p>
-              
-              </div>
-            </div>
-          </div>
+      <div className="image">
+        <div>
+          <img
+            src={msme}
+            alt="img"
+          />
         </div>
       </div>
+    </div>
+
+    <div className="skewed skewed-left">
+      <div className="image">
+        <div>
+          <img
+            src={msme}
+            alt="img"
+          />
+        </div>
+      </div>
+      <div className="text">
+        <p>We provide comprehensive training programs tailored specifically to meet the unique needs of Micro, Small and Medium Enterprises (MSME’s) in various sectors. Our team of experienced trainers are equipped with the knowledge and expertise to identify and address the specific challenges faced by MSME’s to design and deliver training programs that are customized to suit their individual needs.</p>
+        <a href="#">Read more &rarr;</a>
+      </div>
+    </div>
+    <div className="skewed">
+      <div className="text">
+        <p>
+        At SOM, we are passionate about helping MSME’s achieve their full potential and we are dedicated in providing the highest quality training programs and support to ensure their success.
+
+              </p>
+               <p>
+               Contact us today to learn more about how we can help your organization succeed.
+              </p>
+              <a href="/contact" className="dark-blue-button">
+      Contact Us
+    </a>
+        
+      </div>
+      <div className="image">
+        <div>
+          <img
+            src="https://cdn.elearningindustry.com/wp-content/uploads/2018/09/3-steps-to-better-healthcare-training-e1538384810968.jpg"
+            alt="img"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
       
      
       <div className="container1" style={{marginTop: "40px"}}>

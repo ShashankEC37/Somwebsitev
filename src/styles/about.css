@@ -1,10 +1,53 @@
 /* aboutUs.css */
+/* styles.css */
+
+/* styles.css */
+/* styles.css */
+/* styles.css */
+
+.two-column-container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 10px; /* Add optional padding for spacing around content */
+}
+
+.column:first-child {
+  display: flex; /* Use flex display for the first column (image) */
+}
+
+.column:first-child img {
+  width: 100%; /* Make the image occupy the full width of its column */
+  height: auto;
+  max-height: ; /* Maintain aspect ratio */
+}
+
+.column:nth-child(2) {
+  flex: 2; /* Set the second column (heading and paragraph) to take 2 columns */
+}
+
+/* Justify the content in <p> */
+.column p {
+  text-align: justify;
+}
+
+/* Add any other CSS styles you need for your component */
+
+
+/* Add any other CSS styles you need for your component */
+
+
+/* Add any other CSS styles you need for your component */
+
+/* Add any other CSS styles you need for your component */
 
 /* Base styles for larger screens */
 .about-us-container {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
   }
   
   .about-us-section {

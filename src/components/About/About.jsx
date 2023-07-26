@@ -21,34 +21,54 @@ const AboutUs = () => {
        <h3>Join us </h3> on our journey towards success and let School of Maters be the tool for your growth and transformation.
         </p>
       </div>
+
+      
+      {/* ------------------------------------------------------------------- */}
+
+
       <div className="about-us-section">
+      <div className="two-column-container">
+      <div className="column">
         <img src={missionImage} alt="Mission" className="section-image" />
+      </div>
+      <div className="column">
         <h2>Mission</h2>
-        <ol>
-          <p>To deliver customized coaching programs that cater to the unique requirements of each individual or group.</p>
+        <p>
+          School of Masters is committed to unlocking individual’s potential by connecting them with the right coaches. 
+        </p>
+        <p>We at SOM are also dedicated to deliver skills and knowledge that significantly increase our course participants on-the-job productivity, thereby enhancing their contributions to the goal of their organization.</p>
+      </div>
+    </div>
+        <p>Our mission is threefold:</p>
+          <p>Firstly, we strive to deliver customized coaching programs that cater to the unique requirements of each individual or group, in accordance with industry standards.</p>
           <p>
-            To provide SME’s with information that shapes and guides their business path; to offer training packages to
-            match changing demands.
+          Secondly, we aim to provide small and medium sized enterprises (SME’s) with information that shapes and guides their business paths with a focus on flexibility by offering a range of training packages to match their changing demands and ensure employee performance aligns with industry standards.
           </p>
-          <p>We are dedicated to creating a learning environment to empower individuals to upgrade their skills and reach their full potential.</p>
-        </ol>
+          <p>Finally, we are dedicated to creating a learning environment with engaging activities that present new and interesting learning opportunities, empowering individuals to upgrade their skills and reach their full potential.</p>
+          <p>At SOM we are committed to support our clients in every step, as they embark on their personal and career development.</p>
       </div>
       <div className="about-us-section">
         <img src={visionImage} alt="Vision" className="section-image" />
         <h2>Vision</h2>
         <p>
-          Our vision is to positively impact 100 million individuals and organizations by building a community of the
-          world’s best coaches.
+        At SOM, our vision is to positively impact 100 million individual and organizations by creating a community of the world’s best coaches. We believe that through our work, we can help create a world where everyone has the opportunity to lead a fulfilling and visionary life.
         </p>
       </div>
+
+      {/* ------------------------------------------------------------------- */}
+
+
       <div className="about-us-section">
         <img src={valuesImage} alt="Values" className="section-image" />
         <h2>Our Values</h2>
         <ul>
           <li><p>Integrity</p></li>
+          <p>Our priority is to be honest and clear to enhance our performance and achieve our goals.</p>
           <li><p>Authenticity</p></li>
+          <p> At SOM, our commitment to work and clients is unwavering regardless of the type of work or status of the client.</p>
           <li><p>Accountability</p></li>
-          <li><p>Distinction Driven</p></li>
+          <p> At SOM, accountability is the essence of the organization. We feel when there is accountability is where the organization will perform, progress and give timely deliver.</p>
+ 
         </ul>
       </div>
     </div>
