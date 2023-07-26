@@ -36,25 +36,27 @@
     align-items: center;
     justify-content: space-around;
     animation: logoLoop 50s linear infinite;
+    padding-bottom: 5%;
 }
 
 
-
-.logo_item{
-    margin-left: 1rem;
-    padding: 1rem;
+.logo_item {
+    margin-left: 5%;
+    
     aspect-ratio: 30/9;
     background: white;
     display: grid;
-    place-items  : center;
+    place-items: center;
     border-radius: 1rem;
-}
-
-.logo_item img{
+    /* Add margin or padding to create space between images */
+    margin-right: 1rem; /* Add a margin of 1rem on the right side */
+  }
+  
+  .logo_item img {
+    margin: 10%;
     height: 4rem;
     margin-inline: 2rem;
-}
-
+  }
 @keyframes logoLoop {
  from{
     transform: translateX(0);

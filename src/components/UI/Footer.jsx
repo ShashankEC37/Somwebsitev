@@ -45,9 +45,9 @@ const Footer = () => {
                 style={{ width: "150px", height: "auto" }}
                 alt=""
               />
-              <p style={{color:'#090238' ,paddingTop:"20px",paddingBottom:"5px", fontWeight:"510"}}>No. 99, Jaya Apartments,</p>
-              <p style={{color:'#090238' ,paddingTop:"20px",paddingBottom:"5px", fontWeight:"510"}}>6th Cross Rd, Malleshwara,</p>
-              <p style={{color:'#090238' ,paddingTop:"20px",paddingBottom:"5px", fontWeight:"510"}}>Bengaluru, Karnataka 560003</p>
+              <p style={{color:'#090238' ,paddingTop:"20px",paddingBottom:"5px", fontWeight:"500"}}>No. 99, Jaya Apartments,</p>
+              <p style={{color:'#090238' ,paddingTop:"20px",paddingBottom:"5px", fontWeight:"500"}}>6th Cross Rd, Malleshwara,</p>
+              <p style={{color:'#090238' ,paddingTop:"20px",paddingBottom:"5px", fontWeight:"500"}}>Bengaluru, Karnataka 560003</p>
             </div>
           </div>
           <div className="footer__quick-links">

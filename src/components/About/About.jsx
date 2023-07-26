@@ -47,13 +47,17 @@ const AboutUs = () => {
           <p>Finally, we are dedicated to creating a learning environment with engaging activities that present new and interesting learning opportunities, empowering individuals to upgrade their skills and reach their full potential.</p>
           <p>At SOM we are committed to support our clients in every step, as they embark on their personal and career development.</p>
       </div>
-      <div className="about-us-section">
-        <img src={visionImage} alt="Vision" className="section-image" />
-        <h2>Vision</h2>
-        <p>
-        At SOM, our vision is to positively impact 100 million individual and organizations by creating a community of the world’s best coaches. We believe that through our work, we can help create a world where everyone has the opportunity to lead a fulfilling and visionary life.
-        </p>
-      </div>
+      <div className="about-us-vision">
+  <div className="section-image-container">
+    <img src={visionImage} alt="Vision" className="section-image" />
+  </div>
+  <div className="section-text">
+    <h2>Vision</h2>
+    <p>
+      At SOM, our vision is to positively impact 100 million individuals and organizations by creating a community of the world's best coaches. We believe that through our work, we can help create a world where everyone has the opportunity to lead a fulfilling and visionary life.
+    </p>
+  </div>
+</div>
 
       {/* ------------------------------------------------------------------- */}
 

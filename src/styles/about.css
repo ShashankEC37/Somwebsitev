@@ -78,6 +78,30 @@
     margin-left: 5%;
     margin-right: 5%;
   }
+  .about-us-vision {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 20px; /* Add space between the columns */
+    max-width: 800px; /* Set a maximum width for the content */
+  
+    /* Additional styling for background, padding, etc. */
+    background: #f7f7f7;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+  
+  .section-image-container {
+    grid-column: 1; /* Place the image in the first column */
+  }
+  
+  .section-image {
+    max-width: 50%; /* Ensure the image doesn't overflow its container */
+  }
+  
+  .section-text {
+    grid-column: 2; /* Place the text in the second column */
+  }
   
   .about-us-section ol,
   .about-us-section ul {
@@ -109,6 +133,8 @@
   .about-us-section:nth-child(odd) p{
     color: #1a0f4f;
   }
+
+  
  
   
   /* Media queries for responsiveness */

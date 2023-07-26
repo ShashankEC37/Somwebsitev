@@ -18,6 +18,18 @@ const products = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed tristique lectus, at commodo est. Nulla dapibus scelerisque tellus vitae viverra.',
   },  
   {
+    id: 10,
+    name: 'Ram Santani',
+    image: Sheetal,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed tristique lectus, at commodo est. Nulla dapibus scelerisque tellus vitae viverra.',
+  },
+  {
+    id: 10,
+    name: 'Varsha Santani',
+    image: Sheetal,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed tristique lectus, at commodo est. Nulla dapibus scelerisque tellus vitae viverra.',
+  },
+  {
       id: 1,
       name: 'Akshara',
       image: Akshara,
