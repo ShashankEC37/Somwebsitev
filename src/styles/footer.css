@@ -1,6 +1,6 @@
 .footer {
     padding: 60px 0px;
-    background: rgb(59, 59, 59);
+    background: #d4e8fa;
 
   }
   
@@ -27,27 +27,35 @@
 
 .quick__links-title{
     font-size: 1.1rem;
-    color:var(--primary-color);
-    font-weight: 500;
+    color: #090238;
+    font-weight: 600;
     margin-bottom: 30px;
 }
 
 .quick__links{
+  
     list-style:none
 }
 
 .quick__link-item{
     margin-bottom: 30px;
+    color:#379cf6;
 }
 
 .quick__link-item a{
+    color:#090238;
     font-size: .9rem;
-    font-weight: 300;
+    font-weight: 550;
     cursor: pointer;
+}
+.quick__sociallink-item{
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .quick__link-item a:hover{
-    color: var(--primary-color)
+    color: 
 }
 
 

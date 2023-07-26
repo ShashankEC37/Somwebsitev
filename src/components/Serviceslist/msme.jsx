@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "../../styles/msme.css"; // Import your custom CSS stylesheet
 import msme from "../../images/msme.jpg"
+import msme2 from "../../images/msme2.jpg"
 
 
 import CourseDetails from "./CourseDetails";
@@ -42,7 +43,7 @@ const Msme = () => {
       <div className="image">
         <div>
           <img
-            src={msme}
+            src={msme2}
             alt="img"
           />
         </div>

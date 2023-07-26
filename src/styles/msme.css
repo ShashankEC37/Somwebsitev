@@ -83,6 +83,32 @@ a{
 img{
   width: 140%;
 }
+@media screen and (max-width:750px){
+  .skewed{
+      display: block;
+      width:20em;
+
+  }
+  .image, .text {
+      width:100%;
+  }
+  img{
+      width:160%;
+  }
+  .skewed .image::before{
+      width:120%;
+      height:40%;
+      top:-5em;
+      left:50%;
+      transform: 
+      translate(-50%) rotate(10deg);
+  }
+  .skewed-left .image::before {
+      transform: translateX(-50%) rotate(-10deg);
+      top:initial;
+      bottom: -5em;
+  }
+}
   
   .container1 {
     background-color: white;

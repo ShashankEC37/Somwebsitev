@@ -11,8 +11,9 @@ const Team = () =>{
         dots: false,
         infinite: true,
         speed: 1000,
+        
         autoplay: true,
-        autoplaySpeed:2000,
+        autoplaySpeed:7000,
         slidesToShow:1,
         slidesTOScroll:1,
         swipeToSlide:true
@@ -20,8 +21,8 @@ const Team = () =>{
     return <section >
         <div className="container">
             <div className="slider__content-top">
-                    <h2 className="white">Testmonials</h2>
-                    <h2> <span className="white">Trusted by more than500+ Clients</span></h2>
+                 
+                    <h2> <span className="white">Trusted by more than500 + Clients</span></h2>
             </div>
             <div className="slider__wrapper">
             <Slider {...settings}>

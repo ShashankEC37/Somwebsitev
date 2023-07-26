@@ -30,7 +30,7 @@ const teamMembers=[
     {
         imgUrl: team04,
         name: 'Deena C Rath',
-        position: 'Master Trainer and Co-Facilitator'
+        position: 'Master Trainer'
     },
 ]
 const Team = () =>{

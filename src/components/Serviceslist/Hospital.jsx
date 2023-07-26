@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "../../styles/hospital.css"; // Import your custom CSS stylesheet
 import hospital from "../../images/hospital2.jpg"
 import hospital2 from "../../images/hospital.jpg"
+import hospital3 from "../../images/hospital3.jpg"
 
 
 
@@ -75,7 +76,7 @@ const Hospital = () => {
         <div className="image">
           <div>
             <img
-              src="https://cdn.elearningindustry.com/wp-content/uploads/2018/09/3-steps-to-better-healthcare-training-e1538384810968.jpg"
+              src={hospital3}
               alt="img"
             />
           </div>

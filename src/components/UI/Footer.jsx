@@ -45,9 +45,9 @@ const Footer = () => {
                 style={{ width: "150px", height: "auto" }}
                 alt=""
               />
-              <p style={{color:'white' ,paddingTop:"20px",paddingBottom:"5px"}}>No. 99, Jaya Apartments,</p>
-              <p style={{color:'white',padding:"5px"}}>6th Cross Rd, Malleshwara,</p>
-              <p style={{color:'white',padding:"5px"}}>Bengaluru, Karnataka 560003</p>
+              <p style={{color:'#090238' ,paddingTop:"20px",paddingBottom:"5px", fontWeight:"510"}}>No. 99, Jaya Apartments,</p>
+              <p style={{color:'#090238' ,paddingTop:"20px",paddingBottom:"5px", fontWeight:"510"}}>6th Cross Rd, Malleshwara,</p>
+              <p style={{color:'#090238' ,paddingTop:"20px",paddingBottom:"5px", fontWeight:"510"}}>Bengaluru, Karnataka 560003</p>
             </div>
           </div>
           <div className="footer__quick-links">
@@ -79,21 +79,23 @@ const Footer = () => {
               <a href="https://www.linkedin.com/company/school-of-masters-india/" target="_blank">
                 <i
                   className="ri-linkedin-box-fill"
-                  style={{ fontSize: "24px", color: "white" }}
+                  style={{ fontSize: "24px", color: "#090238" }}
                 ></i>
                 </a>
               </li>
-              <li className="quick__link-item">
+              <li className="quick__sociallink-item">
+              <a href="" target="_blank">
                 <i
-                  className="ri-mail-line"
-                  style={{ fontSize: "24px", color: "white" }}
+                  className="ri-youtube-fill"
+                  style={{ fontSize: "24px", color: "#090238" }}
                 ></i>
+                </a>
               </li>
               <li className="quick__link-item">
               <a href="https://www.facebook.com/people/SOM/100068256820872/" target="_blank">
                 <i
                   className="ri-facebook-circle-fill"
-                  style={{ fontSize: "24px", color: "white" }}
+                  style={{ fontSize: "24px", color: "#090238" }}
                 ></i>
                 </a>
               </li>
@@ -101,7 +103,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/schoolofmasters13/" target="_blank">
                 <i
                   className="ri-instagram-line"
-                  style={{ fontSize: "24px", color: "white" }}
+                  style={{ fontSize: "24px", color: "#090238" }}
                 ></i>
                 </a>
               </li>
