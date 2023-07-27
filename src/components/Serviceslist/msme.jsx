@@ -23,42 +23,19 @@ const Msme = () => {
       <div>
       <Slider {...settings} className="hero__slider">
         <div className="slider__item msme-01 mt0">
-          <Container>
-            <div className="slider__content ">
-             
-             
-  
-              <button className="btn reserve__btn mt-4">
-               
-              </button>
-            </div>
-          </Container>
+          
         </div>
   
         <div className="slider__item msme-02 mt0">
-          <Container>
-            <div className="slider__content ">
-              
-  
-              <button className="btn reserve__btn mt-4">
-              
-              </button>
-            </div>
-          </Container>
+         
         </div>
   
         <div className="slider__item msme-03 mt0">
-          <Container>
-            <div className="slider__content ">
-            </div>
-          </Container>
+          
         </div>
   
         <div className="slider__item msme-04 mt0">
-          <Container>
-            <div className="slider__content ">
-            </div>
-          </Container>
+          
         </div>
   
       </Slider>

@@ -35,13 +35,7 @@
   background-size: cover;
 }
 
-.hospital-05 {
-  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
-    url(".././images/HOSPITALS/5.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 .hospital-07 {
   background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
@@ -57,13 +51,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.hospital-09 {
-  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
-    url(".././images/HOSPITALS/9.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .hospital-10 {
   background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
     url(".././images/HOSPITALS/10.jpg");
@@ -78,21 +66,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.dark-blue-button {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #1a237e;
-  color: #ffffff;
-  text-decoration: none;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: bold;
-  margin: 30px;
-}
 
-.dark-blue-button:hover {
-  background-color: #0d1c61;
-}
 
 p{
       font-size:0.9em;
@@ -167,8 +141,8 @@ a{
 
 }
 .image{
-  width: 50%;
-  height: 17em;
+  width: 70%;
+  height: 12em;
   position: relative;
   overflow: hidden;
 
@@ -176,12 +150,13 @@ a{
 .image::before{
   content:'';
   position:absolute;
+  top:5%;
   left:-6.1em;
   top:50%;
   transform: 
   translateY(-50%) rotate(20deg);
   background:#0095ff;
-  width:40%;
+  width:50%;
   height: 140%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 7);
 }

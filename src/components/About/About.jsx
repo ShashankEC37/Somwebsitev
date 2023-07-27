@@ -107,7 +107,7 @@ const AboutPage  = () => {
 
     <section className="about__page-section2">
       <Container>
-        <h4 className="Values" style={{ textAlign: "center" }}>Our Values</h4>
+        <h4 className="Values" style={{ textAlign: "center" , justifyContent:"center"}}>Our Values</h4>
         <div className="cards-container1">
           <div className="card1">
             <img src={integraty} alt="Image 1" />
@@ -137,18 +137,18 @@ const AboutPage  = () => {
         <Row>
           
           <Col lg="4" md="4">
-            <div className="about__section-content">
+            <div className="about__section-content" >
             <h4 className="Values" style={{ textAlign: "center" }}>Our Mission</h4>
 
-              <p className="Mission" style={{paddingTop:"50px"}}>
+              <p className="Mission" style={{paddingTop:"50px" , marginRight:"30px",paddingBottom:"20px"}}>
                 
-             <strong style={{fontWeight:"600"}}> School of Masters </strong>is committed to unlocking individual’s potential by connecting them with the right coaches. We at SOM are also dedicated to deliver skills and knowledge that significantly increase our course participants on-the-job productivity, thereby enhancing their contributions to the goal of their organization.
+             <strong style={{fontWeight:"600" }}> School of Masters </strong>is committed to unlocking individual’s potential by connecting them with the right coaches. We at SOM are also dedicated to deliver skills and knowledge that significantly increase our course participants on-the-job productivity, thereby enhancing their contributions to the goal of their organization.
               </p>
-              <p className="Mission"><strong style={{fontWeight:"600"}}> Our mission is threefold:</strong></p>
-              <p className="Mission"><strong style={{fontWeight:"600"}}> Firstly,</strong> we strive to deliver customized coaching programs that cater to the unique requirements of each individual or group, in accordance with industry standards.</p>
-              <p className="Mission"><strong style={{fontWeight:"600"}}> Secondly,</strong> we aim to provide small and medium sized enterprises (SME’s) with information that shapes and guides their business paths with a focus on flexibility by offering a range of training packages to match their changing demands and ensure employee performance aligns with industry standards.</p>
-              <p className="Mission"><strong style={{fontWeight:"600"}}> Finally,</strong> we are dedicated to creating a learning environment with engaging activities that present new and interesting learning opportunities, empowering individuals to upgrade their skills and reach their full potential.</p>
-              <p className="Mission"> SOM we are committed to support our clients in every step, as they embark on their personal and career development.</p>
+              <p className="Mission"><strong style={{paddingTop:"20px",fontWeight:"600",paddingTop:"50px" }} > Our mission is threefold:</strong></p>
+              <p className="Mission"style={{paddingTop:"20px", marginRight:"30px"}}><strong style={{fontWeight:"600"}}> Firstly,</strong> we strive to deliver customized coaching programs that cater to the unique requirements of each individual or group, in accordance with industry standards.</p>
+              <p className="Mission" style={{paddingTop:"20px" , marginRight:"30px"}}><strong style={{fontWeight:"600"}}> Secondly,</strong> we aim to provide small and medium sized enterprises (SME’s) with information that shapes and guides their business paths with a focus on flexibility by offering a range of training packages to match their changing demands and ensure employee performance aligns with industry standards.</p>
+              <p className="Mission"style={{paddingTop:"20px" , marginRight:"30px"}}><strong style={{fontWeight:"600"}}> Finally,</strong> we are dedicated to creating a learning environment with engaging activities that present new and interesting learning opportunities, empowering individuals to upgrade their skills and reach their full potential.</p>
+              <p className="Mission" style={{paddingTop:"20px" , marginRight:"30px"}}> SOM we are committed to support our clients in every step, as they embark on their personal and career development.</p>
               <div className="about__section-item d-flex align-items-center" style={{ marginBottom: '40px' }}></div>
             </div>
           </Col>
@@ -173,11 +173,11 @@ const AboutPage  = () => {
           <Col lg="4" md="4">
           <h4 className="Values" style={{ textAlign: "center" }}>About Us</h4>
             <div className="about__section-content">
-              <p className="Mission" style={{paddingTop:"50px"}}>
+              <p className="Mission" style={{paddingTop:"50px", paddingRight:"30px", paddingBottom:"20px"}}>
               We are dedicated to empowering trainers, solopreneurs and organizations in their pursuit of excellence. The goal is to reinvent training methods which ensures exceptional outcomes in all areas of life.
               </p>
-              <p  className="Mission">We help everyone who come to us to flourish through outcome based training and coaching programs. We understand that language should not be a barrier to success which is why we have successfully delivered our program in 6 Indian regional languages across India. Our expert coaches and trainers offer supreme guidance, support and personalized attention to help our clients unlock their full potential.</p>
-              <p className="Mission">Join us on our journey towards success and let School of Maters be the tool for your growth and transformation.</p>
+              <p  className="Mission" style={{ paddingRight:"30px", paddingBottom:"20px"}}>We help everyone who come to us to flourish through outcome based training and coaching programs. We understand that language should not be a barrier to success which is why we have successfully delivered our program in 6 Indian regional languages across India. Our expert coaches and trainers offer supreme guidance, support and personalized attention to help our clients unlock their full potential.</p>
+              <p className="Mission" style={{ paddingRight:"30px", paddingBottom:"20px"}}>Join us on our journey towards success and let School of Maters be the tool for your growth and transformation.</p>
               
             </div>
           </Col>
