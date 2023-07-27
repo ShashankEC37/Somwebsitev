@@ -13,7 +13,7 @@ const Footer = () => {
       display: "MSME",
     },
     {
-      path: "/personatraining",
+      path: "/personaltraining",
       display: "121 Performance Coaching",
     },
     {

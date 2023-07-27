@@ -2,18 +2,70 @@ import React, { useEffect } from "react";
 import "../../styles/msme.css"; // Import your custom CSS stylesheet
 import msme from "../../images/msme.jpg"
 import msme2 from "../../images/msme2.jpg"
+import { Container ,Row, Col} from 'react-bootstrap';
+import Slider from "react-slick";
+
 import "../../styles/CourseDetails.css"; 
 const Msme = () => {
-    useEffect(() => {
-        const maps = document.querySelectorAll('.map');
-    
-        maps.forEach((map) => {
-          const nodes = map.querySelectorAll('.node');
-          map.style.setProperty('--node-count', nodes.length - 1);
-          map.style.setProperty('--tan', Math.tan(Math.PI / nodes.length));
-        });
-      }, []);
-  return (
+
+    const settings = {
+      fade: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
+      infinite: true,
+      autoplay: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      pauseOnHover: false,
+      dots: true, // Enable dots
+    };
+    return (
+      <div>
+      <Slider {...settings} className="hero__slider">
+        <div className="slider__item msme-01 mt0">
+          <Container>
+            <div className="slider__content ">
+             
+             
+  
+              <button className="btn reserve__btn mt-4">
+               
+              </button>
+            </div>
+          </Container>
+        </div>
+  
+        <div className="slider__item msme-02 mt0">
+          <Container>
+            <div className="slider__content ">
+              
+  
+              <button className="btn reserve__btn mt-4">
+              
+              </button>
+            </div>
+          </Container>
+        </div>
+  
+        <div className="slider__item msme-03 mt0">
+          <Container>
+            <div className="slider__content ">
+            </div>
+          </Container>
+        </div>
+  
+        <div className="slider__item msme-04 mt0">
+          <Container>
+            <div className="slider__content ">
+            </div>
+          </Container>
+        </div>
+  
+      </Slider>
+
+
+
+
     <div style={{backgroundColor:"white"}}>
     <div className="top-bar">
       <h2 style={{color:'white'}}>MSME</h2>
@@ -201,6 +253,7 @@ const Msme = () => {
           </div>
         </li>
       </ul>
+    </div>
     </div>
     </div>
     

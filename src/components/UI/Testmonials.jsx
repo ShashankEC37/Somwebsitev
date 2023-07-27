@@ -27,40 +27,40 @@ const Team = () =>{
             <div className="slider__wrapper">
             <Slider {...settings}>
             <div className="slider__item">
-                <p className="description">School Of Masters was exceptional. Their expertise and practical approach made a significant impact on our team's performance</p>
+                <p className="description">Shalini Mukund, founder of Voive-O-Magic and a Public Speaker herself recommends SOM for the services they provide. Shalini found value for herself in SOM’s training program which helps align goals with vision and create a step-by-step strategy</p>
                 <div className="customer__details">
                         <div className="customer__img">
-                            <img src={ava01} alt="" />
+                     
                         </div>
                         <div>
-                            <h5 className="customer__name">Preethi</h5>
-                            <div className="description">CEO, Preethi Industries</div>
+                            <h5 className="customer__name">Shalini Mukund</h5>
+                            <div className="description"> Voice-O-Magic</div>
                         </div>
                     </div> 
             </div>
 
             <div className="slider__item">
-                <p className="description">School Of Masters was exceptional. Their expertise and practical approach made a significant impact on our team's performance</p>
+                <p className="description">SOM’s 121 performance coaching according to Parampreeth is amazing. They understand individuals strengths and weaknesses and give them a proper way of facing challenges.</p>
                 <div className="customer__details">
                         <div className="customer__img">
                             <img src={ava02} alt="" />
                         </div>
                         <div>
-                            <h5 className="customer__name">Vijay</h5>
-                            <div className="description">CEO, Vijay Industries</div>
+                            <h5 className="customer__name">Parampreeth</h5>
+                            <div className="description">Creative Digital Media</div>
                         </div>
                     </div> 
             </div>
 
             <div className="slider__item">
-                <p className="description">School Of Masters was exceptional. Their expertise and practical approach made a significant impact on our team's performance</p>
+                <p className="description">Ms. Sheetal Surana’s business networking class was a great learning experience. Sheetal was patient and helped her understand the skills and new ways to do networking</p>
                 <div className="customer__details">
                         <div className="customer__img">
                             <img src={ava03} alt="" />
                         </div>
                         <div>
-                            <h5 className="customer__name">Nandhi</h5>
-                            <div className="description">CEO, Nandhi Industries</div>
+                            <h5 className="customer__name">Bina Mehta</h5>
+                            <div className="description"></div>
                         </div>
                     </div> 
             </div>

@@ -39,7 +39,7 @@ const Team = () => {
           </div>
           <div className="team__item">
             <div className="team__img">
-              <img src={team02} alt="" />
+              <img src="" alt="" />
             </div>
             <div className="team__details">
               <h4>Param Preeth</h4>
@@ -59,7 +59,7 @@ const Team = () => {
           </div>
           <div className="team__item">
             <div className="team__img">
-              <img src={team03} alt="" />
+              <img src="" alt="" />
             </div>
             <div className="team__details">
               <h4>Naveen Itta</h4>
@@ -71,7 +71,7 @@ const Team = () => {
           </div>
           <div className="team__item">
             <div className="team__img">
-              <img src={team04} alt="" />
+              <img src="" alt="" />
             </div>
             <div className="team__details">
               <h4>Shashank S Rao</h4>
@@ -83,7 +83,7 @@ const Team = () => {
           </div>
           <div className="team__item">
             <div className="team__img">
-              <img src={team04} alt="" />
+              <img src="" alt="" />
             </div>
             <div className="team__details">
               <h4>Deena C Rathod</h4>

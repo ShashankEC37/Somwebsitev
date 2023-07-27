@@ -1,24 +1,116 @@
 import React, { useEffect } from "react";
 import "../../styles/hospital.css"; // Import your custom CSS stylesheet
 import hospital from "../../images/hospital2.jpg"
-import hospital2 from "../../images/hospital.jpg"
+import hospital2 from "../../images/hospital.jpg";
+import { Container ,Row, Col} from 'react-bootstrap';
+import Slider from "react-slick";
+import { Link } from "react-router-dom";
 import hospital3 from "../../images/hospital3.jpg"
 import "../../styles/CourseDetails.css"; // Import your
-
-
-
 import CourseDetails from "./CourseDetails";
+
 const Hospital = () => {
-    useEffect(() => {
-        const maps = document.querySelectorAll('.map');
-    
-        maps.forEach((map) => {
-          const nodes = map.querySelectorAll('.node');
-          map.style.setProperty('--node-count', nodes.length - 1);
-          map.style.setProperty('--tan', Math.tan(Math.PI / nodes.length));
-        });
-      }, []);
+  const settings = {
+    fade: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    pauseOnHover: false,
+    dots: true, // Enable dots
+  };
   return (
+    <div>
+    <Slider {...settings} className="hero__slider">
+      <div className="slider__item hospital-01 mt0">
+        <Container>
+          <div className="slider__content ">
+           
+           
+
+            <button className="btn reserve__btn mt-4">
+             
+            </button>
+          </div>
+        </Container>
+      </div>
+
+      <div className="slider__item hospital-02 mt0">
+        <Container>
+          <div className="slider__content ">
+            
+
+            <button className="btn reserve__btn mt-4">
+            
+            </button>
+          </div>
+        </Container>
+      </div>
+
+      <div className="slider__item hospital-03 mt0">
+        <Container>
+          <div className="slider__content ">
+          </div>
+        </Container>
+      </div>
+
+      <div className="slider__item hospital-04 mt0">
+        <Container>
+          <div className="slider__content ">
+          </div>
+        </Container>
+      </div>
+
+      <div className="slider__item hospital-05 mt0">
+        <Container>
+          <div className="slider__content ">
+          </div>
+        </Container>
+      </div>
+
+  
+
+      <div className="slider__item hospital-07 mt0">
+        <Container>
+          <div className="slider__content ">
+          </div>
+        </Container>
+      </div>
+
+      <div className="slider__item hospital-08 mt0">
+        <Container>
+          <div className="slider__content ">
+          </div>
+        </Container>
+      </div>
+
+      <div className="slider__item hospital-09 mt0">
+        <Container>
+          <div className="slider__content ">
+          </div>
+        </Container>
+      </div>
+
+      <div className="slider__item hospital-10 mt0">
+        <Container>
+          <div className="slider__content ">
+          </div>
+        </Container>
+      </div>
+
+      <div className="slider__item hospital-11 mt0">
+        <Container>
+          <div className="slider__content ">
+          </div>
+        </Container>
+      </div>
+    </Slider>
+
+
+
+
     <div style={{backgroundColor:"white"}}>
       <div className="top-bar">
         <h2 style={{color:'white'}}>Hospitals</h2>
@@ -177,6 +269,7 @@ const Hospital = () => {
         </li>
 
       </ul>
+    </div>
     </div>
     </div>
     

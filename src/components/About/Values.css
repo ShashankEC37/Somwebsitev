@@ -1,0 +1,72 @@
+values-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #000000;
+  padding-top: 10px;
+}
+.Values{
+  color: #f9a826;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.value-column {
+  flex: 1;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.value-column h2 {
+
+  color :  #000d6b;
+  padding-bottom: 5px;  
+  margin-top: 10px;
+  text-align: center;
+
+}
+.value-column p {
+
+  color :  #000000; 
+  text-align: center;
+
+}
+.value-columnlast h2 {
+
+  color :  #000d6b;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+
+
+.value-columnlast {
+  flex: 1;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+
+}
+
+
+
+
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+  .values-container {
+    flex-direction: column;
+  }
+  
+  .value-column{
+    border-right: none;
+    border-bottom: 1px solid #000000;
+    border-right: none ;
+  }
+}
