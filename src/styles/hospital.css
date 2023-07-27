@@ -231,56 +231,6 @@ img{
   padding: 0px 15px;
 }
 
-
-
-
-
-/* Map styles */
-.map {
-  --d: 150px; /* Set the desired size for each node (increased from 80px to 100px) */
-  --node-count: 7; /* Set the total number of nodes, including the core node */
-  --r: 200px; /* Set the desired distance from the core node */
-  --s: calc(2 * var(--r) + var(--d)); /* container size */
-  position: relative;
-  width: var(--s);
-  height: var(--s);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.map .node {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: flex; /* Add display: flex to center the content horizontally and vertically */
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
-  margin: calc(-0.5 * var(--d));
-  width: var(--d);
-  height: var(--d);
-  --az: calc(var(--i) * 1turn / var(--node-count));
-  transform: rotate(var(--az)) translate(var(--r)) rotate(calc(-1 * var(--az)));
-  background: rgb(64, 0, 255);
-  border-radius: 50%;
-  color: white; /* Set text color to white */
-  font-size: 16px; /* Adjust font size as needed */
-  text-align: center; /* Center the text within the node */
-}
-
-.map .node.core {
-  --d: 200px; /* Set the size of the core node */
-  background: rgb(6, 161, 218);
-  display: flex; /* Center the content horizontally and vertically */
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
-  width: var(--d);
-  height: var(--d);
-  color: white; /* Set text color to white */
-  font-size: 16px; /* Adjust font size as needed */
-  text-align: center; /* Center the text within the core node */
-}
-
 /* Media query for mobile devices */
 @media (max-width: 767px) {
   .skew .skew-content {

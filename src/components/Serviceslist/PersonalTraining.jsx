@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "../../styles/training.css"; // Import your custom CSS stylesheet
 import training from "../../images/121.jpg"
 
-import CourseDetails from "./CourseDetails";
+
 const Training = () => {
     useEffect(() => {
         const maps = document.querySelectorAll('.map');

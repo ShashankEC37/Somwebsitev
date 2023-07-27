@@ -75,10 +75,7 @@
 .about__page-section1 {
   padding: 40px 0;
 }
-Assuming the .cards-container should be a flexbox container */
 .cards-container1 {
-  
-
 
   display: flex;
 
@@ -158,9 +155,7 @@ Assuming the .cards-container should be a flexbox container */
   padding: 5px;
   font-size: 20px;
 }
-.about__page-section2 {
 
-}
 
 .What__we__do {
   font-size: 24px;
