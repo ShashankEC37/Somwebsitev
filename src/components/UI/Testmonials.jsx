@@ -28,10 +28,9 @@ const Team = () =>{
             <Slider {...settings}>
             <div className="slider__item">
                 <p className="description">Shalini Mukund, founder of Voive-O-Magic and a Public Speaker herself recommends SOM for the services they provide. Shalini found value for herself in SOM’s training program which helps align goals with vision and create a step-by-step strategy</p>
+                
                 <div className="customer__details">
-                        <div className="customer__img">
-                     
-                        </div>
+                 
                         <div>
                             <h5 className="customer__name">Shalini Mukund</h5>
                             <div className="description"> Voice-O-Magic</div>
@@ -42,9 +41,7 @@ const Team = () =>{
             <div className="slider__item">
                 <p className="description">SOM’s 121 performance coaching according to Parampreeth is amazing. They understand individuals strengths and weaknesses and give them a proper way of facing challenges.</p>
                 <div className="customer__details">
-                        <div className="customer__img">
-                            <img src={ava02} alt="" />
-                        </div>
+                     
                         <div>
                             <h5 className="customer__name">Parampreeth</h5>
                             <div className="description">Creative Digital Media</div>
@@ -55,12 +52,22 @@ const Team = () =>{
             <div className="slider__item">
                 <p className="description">Ms. Sheetal Surana’s business networking class was a great learning experience. Sheetal was patient and helped her understand the skills and new ways to do networking</p>
                 <div className="customer__details">
-                        <div className="customer__img">
-                            <img src={ava03} alt="" />
-                        </div>
-                        <div>
+                    
+                      <div>
                             <h5 className="customer__name">Bina Mehta</h5>
-                            <div className="description"></div>
+                     
+                        </div>
+                    </div> 
+            </div>
+
+            <div className="slider__item">
+                <p className="description">According to Piyush Lunia, Ms. Sheetal’s quick and effective training at School of Masters was amazing. He was skeptical at first, but 20 mins into the training made him realize they are short simple points that can make a big difference in his output.</p>
+                <p className="description"> I can still see the benefits of training even after 9 months. Thank you Ms. Sheetal.</p>
+                <div className="customer__details">
+                    
+                      <div>
+                            <h5 className="customer__name">Bina Mehta</h5>
+                     
                         </div>
                     </div> 
             </div>

@@ -9,7 +9,8 @@ import hospital3 from "../../images/hospital3.jpg"
 import "../../styles/CourseDetails.css"; // Import your
 import CourseDetails from "./CourseDetails";
 import doctor from "../../images/doctor.jpg"
-import nurses from "../../images/nurse.jpg"
+import nurses from "../../images/nurse.jpg";
+import hospital4 from "../../images/hospital4.jpg"
 
 const Hospital = () => {
   const settings = {
@@ -130,7 +131,7 @@ const Hospital = () => {
         <div className="image">
           <div>
             <img
-              src={hospital3}
+              src={hospital4}
               alt="img"
             />
           </div>

@@ -10,6 +10,8 @@
   margin-top: -30px;
 }
 .Vision{
+  padding-left: 100px;
+  padding-right: 100px;
   right: 0;
   align-items: center;
   justify-content: center;
@@ -40,6 +42,16 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* For devices with a maximum width of 768px (adjust as needed) */
+@media screen and (max-width: 768px) {
+  .no-gutters [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 
 .hero__slider {
   overflow: hidden;
@@ -283,6 +295,11 @@ width: 100%;
     margin-top: -30px;
   }
   .mission__img{
-    margin-top: 3px;
+    margin-top: 10px;
   }
-}
+  .Vision{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  }

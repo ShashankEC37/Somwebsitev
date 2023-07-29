@@ -85,7 +85,7 @@ const AboutPage  = () => {
               <img src={vision} alt="" style={{height:"250px" , width:"250px"}} />
          
           </Col>
-          <Col lg="2" md="2" style={{marginLeft:"100px"}}>
+          <Col lg="2" md="2">
           <h4 className="Values" style={{ textAlign: "center" }}>Vision</h4>
             <div className="about__section-content">
             

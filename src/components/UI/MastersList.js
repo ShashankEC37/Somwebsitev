@@ -31,22 +31,22 @@ const products = [
   },
   {
       id: 1,
-      name: 'Akshara',
+      name: 'Akshara Damle',
       image: Akshara,
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed tristique lectus, at commodo est. Nulla dapibus scelerisque tellus vitae viverra.',
+      description: 'Akshara Damle is the founder of Manosamvaada. He is a TEDx speaker and a psychologist based out of Bengaluru and also a visiting consultant in Gurgaon and Mumbai. He is also an author and has published four books and also a columnist in leading newspapers. He has been working for the course of mental wellness in different sections of the society.',
     },
     {
         id: 11,
-        name: 'Venkat',
+        name: 'Ventatraman Subramanian',
         image: Venkat,
-        description: 'Praesent sollicitudin tincidunt magna a pellentesque. Suspendisse feugiat, nunc at consectetur gravida, neque nisi condimentum mauris, in fermentum.',
+        description: 'The founder and CEO of Excely.in, Mr. Venkataraman Subramanian, is an MS Excel trainer. He has 27 years of experience. His training has helped over 750 entrepreneurs to increase their productivity by 30%. He takes pride in enabling businesses to be run stress free and to stay in their growth path.',
       },
       
     {
       id: 2,
-      name: 'Ami Doshi',
+      name: 'Ami Mehul Doshi',
       image: Ami,
-      description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur aliquet tellus vel fringilla gravida.',
+      description: 'A Parenting Coach, Play  Therapist, Counsellor, Healer, Law of Attraction trainer, Tarot Card Reader, Handwriting Analyst and therapist. Her motto is to enable people to live a life they deserve in the easiest and fastest way. She has been a catalyst for transformation of people facing emotional challenges at work and their personal space.',
     },
     {
       id: 3,
@@ -88,9 +88,9 @@ const products = [
       },
       {
         id: 13,
-        name: 'Yashodha',
+        name: 'Yasodhai Damodaran',
         image: Yashodha,
-        description: 'Duis at malesuada tortor. Aenean ultrices neque sed mi euismod feugiat. Maecenas rutrum, turpis non placerat dapibus, tortor.',
+        description: 'A passionate Rotarian and Trainer, Yasodhai Damodaran is a POSH Trainer. She has 13 years of experience in the IT and training industry. She helps companies to provide a safe working environment to their employees. She has a mission of making India a “Harassment Free Country” by 2030.',
       },
   ];
  
