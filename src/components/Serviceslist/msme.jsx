@@ -4,6 +4,9 @@ import msme from "../../images/msme.jpg"
 import msme2 from "../../images/msme2.jpg"
 import { Container ,Row, Col} from 'react-bootstrap';
 import Slider from "react-slick";
+import msme1 from '../../images/SME/sme2.jpg'
+import msme0 from "../../images/SME/sme3.jpeg";
+import handshake from "../../images/SME/handshake.jpg"
 
 import "../../styles/CourseDetails.css"; 
 const Msme = () => {
@@ -59,7 +62,7 @@ const Msme = () => {
       <div className="image">
         <div>
           <img
-            src={msme}
+            src={msme0}
             alt="img"
           />
         </div>
@@ -70,7 +73,7 @@ const Msme = () => {
       <div className="image">
         <div>
           <img
-            src={msme2}
+            src={msme1}
             alt="img"
           />
         </div>
@@ -97,7 +100,7 @@ const Msme = () => {
       <div className="image">
         <div>
           <img
-            src="https://cdn.elearningindustry.com/wp-content/uploads/2018/09/3-steps-to-better-healthcare-training-e1538384810968.jpg"
+            src={handshake}
             alt="img"
           />
         </div>
