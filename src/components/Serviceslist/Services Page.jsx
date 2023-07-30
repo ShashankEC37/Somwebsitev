@@ -67,7 +67,9 @@ const ServicesPage = () => {
       <h2>Services</h2>
       <h4>SOM is a distinguished training organization that caters to the unique needs of hospitals, MSME’s and individuals.
       Our team comprises of highly experienced trainers who specialize in diverse subjects, ensuring that we offer top-notch solution for all your training needs. </h4>
+    <h4>We believe that training is an investment in people and we are committed to delivering the best return on our client’s investment and growth in revenue or performance of an individual.</h4>
     <h4>We cover hospitals, MSME industries, blue collar staff and personal development.</h4>
+    
     </div>
     
     <div className="card-grid">
