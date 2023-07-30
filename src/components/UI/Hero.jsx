@@ -26,11 +26,15 @@ const Hero = () =>{
         </button>
       </div>
             </div>
-                <div className="hero__img">
-                <img src={heroDarkImg} alt="hero-img" style={{ maxWidth: '100%', height: 'auto' }} />
+            <div className="hero__img">
+  <img
+    src={heroDarkImg}
+    alt="hero-img"
+    style={{ maxWidth: '100%', height: 'auto' }}
+    loading="lazy"
+  />
+</div>
 
-                 
-                    </div>
             </div>
          </div>
     </section>
