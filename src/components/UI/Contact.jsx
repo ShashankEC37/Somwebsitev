@@ -1,64 +1,47 @@
-import React from 'react';
+import React , { useEffect } from 'react';
 import "../../styles/Contact.css";
 import "../../styles/responsive.css";
 import { RiLinkedinFill, RiMailFill, RiFacebookBoxFill, RiInstagramFill, RiYoutubeFill } from 'react-icons/ri';
 
-
+import WebFont from 'webfontloader';
 
 const ContactUs = () => {
-  const email = "sheetal@schoolofmasters.co.in";
+  useEffect(() => {
+    WebFont.load({
+      google: {
+        families: ['Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'],
+      },
+    });
+  }, []);
+
+  const email = "jsr.shashank@gmail.com";
   const subject = "Enquire About -";
 
   const handleEmailClick = () => {
     window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
   };
   return (
-    <div className="contact_us_6">
-    <div className="responsive-container-block container">
-      <form className="form-box">
-        <div className="container-block form-wrapper">
-          <div className="mob-text">
-            <p className="text-blk contactus-head">
-              Get in Touch
-            </p>
-           
-          </div>
-          <div className="responsive-container-block" id="i2cbk">
-            <div className="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i10mt-3">
-              <p className="text-blk input-title">
-                 NAME
-              </p>
-              <input className="input" id="ijowk-3" name="FirstName" placeholder="Please enter  name..." />
-            </div>
-            <div className="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="ip1yp">
-              <p className="text-blk input-title">
-                EMAIL
-              </p>
-              <input className="input" id="ipmgh-3" name="Email" placeholder="Please enter email..." />
-            </div>
-            <div className="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="ih9wi">
-              <p className="text-blk input-title">
-                PHONE NUMBER
-              </p>
-              <input className="input" id="imgis-3" name="PhoneNumber" placeholder="Please enter phone number..." />
-            </div>
-            <div className="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-3">
-              <p className="text-blk input-title">
-                WHAT DO YOU HAVE IN MIND ?
-              </p>
-              <textarea className="textinput" id="i5vyy-3" placeholder="Please enter query..."></textarea>
-            </div>
-          </div>
-          <button className="submit-btn" id="w-c-s-bgc_p-1-dm-id-2">
-            Submit
-          </button>
-        </div>
-      </form>
-      <div className="responsive-cell-block wk-desk-7 wk-ipadp-12 wk-tab-12 wk-mobile-12" id="i772w">
-        <div className="map-part">
-          <p className="text-blk map-contactus-head" id="w-c-s-fc_p-1-dm-id">
+  <div className="container">
+    
+    <div className="contact-in">
+      <div className="contact-map">
+        <h1 style={{paddingBottom:"30px"}}>Our Office</h1>
+      <div style={{ width: '100%', height: '400px', position: 'relative' }}>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.395078976548!2d77.5675837!3d12.9974951!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16267bcefa45%3A0xd7112d379b898576!2z4LKu4LOI4LKk4LON4LKw4LK_IOCyh-CyqOCzjeCyq-CysOCzjeCyruCzh-Cyt-CyqOCzjSDgsrjgsr_gsrjgs43gsp_gsq7gs43gsrjgs40g4LKq4LK_4LK14LK_4LKf4LK_LiDgso7gsrLgs43igIzgsp_gsr_gsqHgsr8!5e0!3m2!1skn!2sin!4v1690703229753!5m2!1skn!2sin"
+      width="100%"
+      height="auto"
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+      </div>
+      <div className="contact-form">
+      <h1 className="text-blk map-contactus-head" id="w-c-s-fc_p-1-dm-id">
             Reach us at
-          </p>
+          </h1>
           <p className="text-blk map-contactus-subhead">
             99, Jaya Apartments, 6th Cross Rd, Malleshwara, Bengaluru, Karnataka 560003
           </p>
@@ -79,14 +62,22 @@ const ContactUs = () => {
             <a href="https://www.instagram.com/schoolofmasters13/" target="_blank">
               <RiInstagramFill className='ri-instagram-fill' />
             </a>
-          </div>
-          <a href="https://www.google.com/maps/dir//99,+Jaya+Apartments,+6th+Cross+Rd,+Malleshwara,+Bengaluru,+Karnataka+560003/@12.9974857,77.4975432,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae16267bcefa45:0xd7112d379b898576!2m2!1d77.5675836!2d12.9974936?entry=ttu" >
-      <div className="map-box container-block">
-     
+            </div>
+        
+        <h1>
+          Contact Us
+        </h1>
+        <form>
+          <input type="text" placeholder='Name' className='contact-form-text'></input>
+          <input type="text" placeholder='Email'className='contact-form-text'></input>
+          <textarea placeholder='Message'className='contact-form-textarea'></textarea>
+          <input type="Submit" name="Submit" className='contact-form-btn' ></input>
+       
+        </form>
+      
+        
       </div>
-    </a>
-        </div>
-      </div>
+
     </div>
   </div>
   );

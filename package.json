@@ -25,7 +25,8 @@
     "remixicon": "^3.4.0",
     "slick-carousel": "^1.8.1",
     "velocity-animate": "^1.5.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "start": "react-scripts start",
