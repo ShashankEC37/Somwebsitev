@@ -14,17 +14,19 @@ const ContactUs = () => {
     });
   }, []);
 
-  const email = "jsr.shashank@gmail.com";
+  const email = "sheetal@schoolofmasters.co.in";
   const subject = "Enquire About -";
 
   const handleEmailClick = () => {
     window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
   };
+  const googleMapSrc =
+    'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d486.13255325756126!2d77.53527252707755!3d12.903836053239713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3fea27a3fc0b%3A0x77f636ca0bceceab!2sMAITREYI!5e0!3m2!1sen!2sin!4v1690733036853!5m2!1sen!2sin';
   return (
   <div className="container">
     
     <div className="contact-in">
-      
+  
       <div className="contact-form">
       <h1 className="text-blk map-contactus-head" id="w-c-s-fc_p-1-dm-id">
             Reach us at
@@ -58,7 +60,7 @@ const ContactUs = () => {
           <input type="text" placeholder='Name' className='contact-form-text'></input>
           <input type="text" placeholder='Email'className='contact-form-text'></input>
           <textarea placeholder='Message'className='contact-form-textarea'></textarea>
-          <input type="Submit" name="Submit" className='contact-form-btn' ></input>
+          <input type="Submit" name="Submit" className='contact-form-btn'></input>
        
         </form>
       
@@ -67,15 +69,15 @@ const ContactUs = () => {
       <div className="contact-map">
         <h1 style={{paddingBottom:"30px"}}>Our Office</h1>
       <div style={{ width: '100%', height: '400px', position: 'relative' }}>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.395078976548!2d77.5675837!3d12.9974951!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16267bcefa45%3A0xd7112d379b898576!2z4LKu4LOI4LKk4LON4LKw4LK_IOCyh-CyqOCzjeCyq-CysOCzjeCyruCzh-Cyt-CyqOCzjSDgsrjgsr_gsrjgs43gsp_gsq7gs43gsrjgs40g4LKq4LK_4LK14LK_4LKf4LK_LiDgso7gsrLgs43igIzgsp_gsr_gsqHgsr8!5e0!3m2!1skn!2sin!4v1690703229753!5m2!1skn!2sin"
-      width="100%"
-      height="auto"
-      style={{ border: 0 }}
-      allowFullScreen=""
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-    ></iframe>
+      <iframe
+          src={googleMapSrc}
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
   </div>
       </div>
     </div>
