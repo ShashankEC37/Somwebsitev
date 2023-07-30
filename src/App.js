@@ -19,6 +19,7 @@ import Hospital from './components/Serviceslist/Hospital';
 import AboutPage from"./components/About/About";
 import Msme from "./components/Serviceslist/msme"
 import Training from "./components/Serviceslist/PersonalTraining";
+import ServicesPage from "./components/Serviceslist/Services Page"
 
 function App() {
   const [theme, setTheme] = useState('');
@@ -42,7 +43,7 @@ function App() {
          <Route path="/hospital" element={<Hospital />} /> 
          <Route path="/msme" element={<Msme />} /> 
          <Route path="/personaltraining" element={<Training />} />
-         <Route path="/services" element={<Services />} />
+         <Route path="/services" element={<ServicesPage />} />
 
       </Routes>
       <Footer />
