@@ -231,8 +231,10 @@
 @media screen and (max-width: 768px) {
   .card-grid {
     grid-template-columns: repeat(2, 1fr); /* Change to one column */
-    margin: 0 auto; /* To center the grid */
-    margin-left: -20%;
+    margin: auto 10px; /* To center the grid */
+    justify-items: center; 
+    max-width: 100%;
+   
 
   }
   
@@ -242,6 +244,7 @@
     height: 100px; /* Decrease the height for mobile */
     margin-right: 30px;
     margin-bottom: 140px;
+    margin-left: -70px;
  
   }
   .card__inner {
@@ -268,4 +271,5 @@
   font-size: 17px;
   word-spacing: -2px;
 }
+
 }
