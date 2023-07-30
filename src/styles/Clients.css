@@ -22,7 +22,7 @@
 
 .overflow{
     display: flex ;
-    padding:5rem , 1rem;
+    padding:5rem , 20px;
     overflow:hidden;
 }
 
@@ -35,15 +35,15 @@
     margin: 10px;
     align-items: center;
     justify-content: space-around;
-    animation: logoLoop 50s linear infinite;
+    animation: logoLoop 70s linear infinite;
     padding-bottom: 5%;
 }
 
 
 .logo_item {
-    margin-left: 5%;
+    margin: 50px;
     
-    aspect-ratio: 30/9;
+  
     background: white;
     display: grid;
     place-items: center;
@@ -53,9 +53,10 @@
   }
   
   .logo_item img {
-    margin: 10%;
-    height: 4rem;
-    margin-inline: 2rem;
+
+    width: auto;
+    height: 100px;
+ 
   }
 @keyframes logoLoop {
  from{
@@ -65,3 +66,16 @@
     transform: translateX(-100%);
  }
 }
+
+@media only screen and (max-width:768px) {
+    .partners_section{
+        width: 100%;
+    }
+    .logo_item img {
+
+        width: auto;
+        height: 60px;
+     
+      }
+ }
+ 
