@@ -80,22 +80,7 @@ const Training = () => {
   </div>
     
      
-      <div className="container1">
-      <div className="map">
-        <div className="node core">Course Outcome   </div>
-        <div className="node" style={{ '--i': 1 }}>Lifestyle Design</div>
-        <div className="node" style={{ '--i': 2 }}>Unfolding Patterns of Growth</div>
-        <div className="node" style={{ '--i': 3 }}>Identifying passion and perceiving it</div>
-        <div className="node" style={{ '--i': 4 }}>Build a Self Brand</div>
-        <div className="node" style={{ '--i': 5 }}>Creating Accountability Structure</div>
-        <div className="node" style={{ '--i': 6 }}>Powerful conversations</div>
-        <div className="node" style={{ '--i': 7 }}>Time Management</div>
-        <div className="node" style={{ '--i': 8 }}>Work-Life Balance</div>
-        
-        	
-        
-              </div>
-    </div>  
+ 
      <div>
       <header>
        
