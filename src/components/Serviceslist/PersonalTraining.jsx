@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import "../../styles/training.css"; // Import your custom CSS stylesheet
-import training from "../../images/121.jpg"
+import training from "../../images/121.jpg";
+import training2 from "../../images/121 coaching.jpg"
+import training3 from "../../images/121 coaching 2.jpg"
 
 
 const Training = () => {
@@ -44,7 +46,7 @@ const Training = () => {
       <div className="image">
         <div>
           <img
-            src={training}
+            src={training2}
             alt="img"
           />
         </div>
@@ -71,7 +73,7 @@ const Training = () => {
       <div className="image">
         <div>
           <img
-            src="https://cdn.elearningindustry.com/wp-content/uploads/2018/09/3-steps-to-better-healthcare-training-e1538384810968.jpg"
+            src={training3}
             alt="img"
           />
         </div>
