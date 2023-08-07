@@ -21,7 +21,7 @@ const nav__links = [
         display: 'AboutUs'
     },
     {
-        path:'#testmonials',
+        path:'/testmonials',
         display: 'Testmonials'
     },
     {

@@ -23,7 +23,7 @@ const ContactUs = () => {
   const googleMapSrc =
     'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d486.13255325756126!2d77.53527252707755!3d12.903836053239713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3fea27a3fc0b%3A0x77f636ca0bceceab!2sMAITREYI!5e0!3m2!1sen!2sin!4v1690733036853!5m2!1sen!2sin';
   return (
-  <div className="container">
+  <div className="container" style={{paddingTop:"30px"}}>
     
     <div className="contact-in">
   
@@ -58,6 +58,7 @@ const ContactUs = () => {
         </h1>
         <form>
           <input type="text" placeholder='Name' className='contact-form-text'></input>
+          <input type="text" placeholder='Phone No' className='contact-form-text'></input>
           <input type="text" placeholder='Email'className='contact-form-text'></input>
           <textarea placeholder='Message'className='contact-form-textarea'></textarea>
           <input type="Submit" name="Submit" className='contact-form-btn'></input>
