@@ -67,7 +67,12 @@
         
     }
     @media only screen and (max-width:768px) {
+        .counter__item{
+            margin: 0%;
+            padding: 0%;
+        }
         .counter__number{
+
             font-size: 1.5rem;
 
         }

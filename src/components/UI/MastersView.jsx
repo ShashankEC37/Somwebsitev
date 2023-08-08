@@ -56,7 +56,7 @@ const Masters = () => {
       <Modal
         isOpen={selectedProduct !== null}
         onRequestClose={closeModal}
-        className="modal"
+        className={`modal ${selectedProduct !== null ? 'zoom-in' : ''}`}
         overlayClassName="modal-overlay"
         contentLabel="Product Modal"
         style={{
@@ -72,9 +72,13 @@ const Masters = () => {
         </button>
         {selectedProduct && (
           <div className="modal-content">
+        
             <div className="modal-image">
-              <img src={selectedProduct.image} alt={selectedProduct.name} />
+            <picture>
+              <img src={selectedProduct.image} alt={selectedProduct.name}  loading="lazy"/>
+              </picture>
             </div>
+          
             <div className="modal-details">
               <h3>{selectedProduct.name}</h3>
               <p>{selectedProduct.description}</p>

@@ -21,7 +21,7 @@ const Team = () => {
             </div>
             <div className="team__details">
               <h4>Sheetal Surana</h4>
-              <p className="description" style={{ fontSize: "small" }}>
+              <p className="description" >
                 Founder & CEO
               </p>
               <div className="team__member-social">
@@ -40,7 +40,7 @@ const Team = () => {
             </div>
             <div className="team__details">
               <h4>Param Preeth</h4>
-              <p className="description" style={{ fontSize: "small" }}>
+              <p className="description" >
                 Founder & CTO
               </p>
               <div className="team__member-social">
@@ -60,7 +60,7 @@ const Team = () => {
             </div>
             <div className="team__details">
               <h4>Naveen Itta</h4>
-              <p className="description" style={{ fontSize: "small" }}>
+              <p className="description" >
                 Mentor Strategic Advisor
               </p>
              <br></br>
@@ -72,7 +72,7 @@ const Team = () => {
             </div>
             <div className="team__details">
               <h4>Shashank S Rao</h4>
-              <p className="description" style={{ fontSize: "small" }}>
+              <p className="description">
                 Master Trainer
               </p>
               <br></br>
@@ -84,7 +84,7 @@ const Team = () => {
             </div>
             <div className="team__details">
               <h4>Deena C Rathod</h4>
-              <p className="description" style={{ fontSize: "small" }}>
+              <p className="description">
                 Master Trainer
               </p>
               <br></br>

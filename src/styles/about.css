@@ -130,6 +130,7 @@
   font-weight: bold;
   margin-bottom: 20px;
   margin-left:30px;
+
 }
 .Our_Mission{
   font-size: 28px;
@@ -151,7 +152,8 @@
 
 
 .Vision {
-
+  font-size: medium;
+  font-weight: 600;
   text-align: justify;
 }
 .Our__Mission{
@@ -197,10 +199,11 @@ width: 100%;
   height: auto;
 }
 
-.card-text {
+.card-text p{
   font-size: 18px;
   font-weight: bold;
   margin-top: 10px;
+  text-align: justify;
 }
 
 /* Add responsive styles for different screen sizes */
@@ -218,6 +221,9 @@ width: 100%;
 
 
 @media only screen and (max-width: 992px) {
+  .Values {
+    font-size: 1px;
+  }
   .slider__item {
     height: 530px;
     max-width: 100vw;
@@ -233,6 +239,10 @@ width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
+  .Values {
+    font-size: 18px;
+    margin-left:0px;
+  }
   .slider__item {
     height: 450px;
   }
@@ -278,6 +288,12 @@ width: 100%;
 .card-text {
   font-size: 12px;
   font-weight: small;
+  padding: 3%;
+  text-align: justify;
+}
+.card-text1 {
+  font-size: 15px;
+  font-weight: bold;
  
   text-align: center;
 }

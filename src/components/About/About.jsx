@@ -86,14 +86,11 @@ const AboutPage  = () => {
          
           </Col>
           <Col lg="2" md="2">
-          <h4 className="Values" style={{ textAlign: "center" }}>Vision</h4>
+          <h4 className="Values" style={{ textAlign: "center"  }}>Vision</h4>
             <div className="about__section-content">
             
               <p className="Vision">
-                To be the industry's leading provider of precision laser cutting solutions, driven by innovation,
-                cutting-edge technology, and an unwavering commitment to quality. We aim to revolutionize metal
-                fabrication and empower our clients with exceptional products, while fostering sustainable growth and
-                making a positive impact on the global manufacturing landscape.
+              At SOM, our vision is to positively impact 100 million individual and organizations by creating a community of the world’s best coaches. We believe that through our work, we can help create a world where everyone has the opportunity to lead a fulfilling and visionary life.
               </p>
               <div className="about__section-item d-flex align-items-center" style={{ marginBottom: '40px' }}></div>
             </div>
@@ -111,17 +108,17 @@ const AboutPage  = () => {
         <div className="cards-container1">
           <div className="card1">
             <img src={integraty} alt="Image 1" />
-            <p className="card-text">Integrity </p>
+            <p className="card-text1">Integrity </p>
             <p className="card-text">Our priority is to be honest and clear to enhance our performance and achieve our goals.</p>
           </div>
           <div className="card1">
             <img src={Authenticity} alt="Image 2" />
-            <p className="card-text">Authenticity  </p>
+            <p className="card-text1">Authenticity  </p>
             <p className="card-text" >our commitment to work and clients is unwavering regardless of the type of work or status of the client.</p>
           </div>
           <div className="card1">
             <img src={accountability} alt="Image 3" />
-            <p className="card-text">Accountability   </p>
+            <p className="card-text1">Accountability   </p>
             <p className="card-text"> accountability is the essence of the organization. We feel organization will perform, progress and give timely deliver when there is accountability.</p>
           </div>
         </div>

@@ -27,12 +27,14 @@ const Hero = () =>{
       </div>
             </div>
             <div className="hero__img">
+              <picture>
   <img
     src={heroDarkImg}
     alt="hero-img"
     style={{ maxWidth: '100%', height: 'auto' }}
     loading="lazy"
   />
+  </picture>
 </div>
 
             </div>
