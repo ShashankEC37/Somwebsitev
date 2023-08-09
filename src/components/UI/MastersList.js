@@ -1,14 +1,14 @@
-import Akshara from "../../images/1.png"
-import Ami from "../../images/9.png";
+import Akshara from "../../images/1.jpg"
+import Ami from "../../images/9.jpg";
 import Naveen from "../../images/8.png";
-import Bansal from "../../images/11.png";
+import Bansal from "../../images/11.jpg";
 import Nikhil from "../../images/7.png";
 import Rooshi from "../../images/12.png";
 import Shalini from "../../images/6.png";
 import Venkat from "../../images/5.png";
 import whatsapp from "../../images/3.png";
 import Yashodha from "../../images/2.png";
-import Sheetal from "../../images/10.png"
+import Sheetal from "../../images/10.jpg"
 
 const products = [
   {

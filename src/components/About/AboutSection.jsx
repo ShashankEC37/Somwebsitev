@@ -14,6 +14,7 @@ const AboutSection = ({ aboutClass }) => {
           : { marginTop: "50px" }
       }
     >
+        <div className='container1'>
       <Container>
         <Row>
           <Col lg="6" md="6">
@@ -35,13 +36,10 @@ const AboutSection = ({ aboutClass }) => {
             </div>
           </Col>
 
-          <Col lg="6" md="6"  >
-      <div className="about__img">
-        <img src={about} alt=""  />
-      </div>
-    </Col>
+        
         </Row>
       </Container>
+      </div>
     </section>
   );
 };

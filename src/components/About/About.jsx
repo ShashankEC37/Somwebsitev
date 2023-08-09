@@ -114,12 +114,12 @@ const AboutPage  = () => {
           <div className="card1">
             <img src={Authenticity} alt="Image 2" />
             <p className="card-text1">Authenticity  </p>
-            <p className="card-text" >our commitment to work and clients is unwavering regardless of the type of work or status of the client.</p>
+            <p className="card-text" >Our commitment to work and clients is unwavering regardless of the type of work or status of the client.</p>
           </div>
           <div className="card1">
             <img src={accountability} alt="Image 3" />
             <p className="card-text1">Accountability   </p>
-            <p className="card-text"> accountability is the essence of the organization. We feel organization will perform, progress and give timely deliver when there is accountability.</p>
+            <p className="card-text"> Accountability is the essence of the organization. We feel organization will perform, progress and give timely deliver when there is accountability.</p>
           </div>
         </div>
       </Container>
@@ -135,7 +135,7 @@ const AboutPage  = () => {
           
           <Col lg="4" md="4">
             <div className="about__section-content" >
-            <h4 className="Values" style={{ textAlign: "center" }}>Our Mission</h4>
+            <h4 className="Values" style={{ textAlign: "center", fontSize:"50px" }}>Our Mission</h4>
 
               <p className="Mission" style={{paddingTop:"50px" , marginRight:"30px",paddingBottom:"20px"}}>
                 

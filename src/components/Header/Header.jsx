@@ -13,13 +13,14 @@ const nav__links = [
         display: 'Masters'
     },
     {
-        path:'/services',
-        display: 'Services'
-    },
-    {
         path:'/about',
         display: 'AboutUs'
     },
+    {
+        path:'/services',
+        display: 'Services'
+    },
+    
     {
         path:'/testmonials',
         display: 'Testmonials'

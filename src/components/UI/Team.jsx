@@ -2,7 +2,9 @@ import React from "react";
 import "../../styles/team.css";
 import sheetal from "../../images/10.png";
 import Clients from "./Clients";
-
+import naveen from "../../images/naveen.jpg"
+import param from "../../images/param.jpg";
+import deena from "../../images/deena.jpg"
 
 const Team = () => {
   return (
@@ -36,12 +38,12 @@ const Team = () => {
           </div>
           <div className="team__item">
             <div className="team__img">
-              <img src="" alt="" />
+              <img src={param} alt="" />
             </div>
             <div className="team__details">
               <h4>Param Preeth</h4>
               <p className="description" >
-                Founder & CTO
+                Founder & Chief Technical Officer
               </p>
               <div className="team__member-social">
                 {/* Empty links for LinkedIn and Email */}
@@ -56,12 +58,12 @@ const Team = () => {
           </div>
           <div className="team__item">
             <div className="team__img">
-              <img src="" alt="" />
+              <img src={naveen} alt="" />
             </div>
             <div className="team__details">
               <h4>Naveen Itta</h4>
               <p className="description" >
-                Mentor Strategic Advisor
+                Cofounder Strategic Advisor
               </p>
              <br></br>
             </div>
@@ -80,7 +82,7 @@ const Team = () => {
           </div>
           <div className="team__item">
             <div className="team__img">
-              <img src="" alt="" />
+              <img src={deena} alt="" />
             </div>
             <div className="team__details">
               <h4>Deena C Rathod</h4>
