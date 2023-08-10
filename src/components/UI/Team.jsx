@@ -24,8 +24,9 @@ const Team = () => {
             <div className="team__details">
               <h4>Sheetal Surana</h4>
               <p className="description" >
-                Founder & CEO
+                Co-Founder & 
               </p>
+              <p>CEO</p>
               <div className="team__member-social">
                 <a href="https://www.linkedin.com/in/sheetal-surana-36625498/">
                 <i className="ri-linkedin-box-fill" style={{ color: "#090238" }}></i>
@@ -34,6 +35,7 @@ const Team = () => {
                 <i className="ri-mail-line" style={{ color: "#090238" }}></i>
                 </a>
               </div>
+              <br></br>
             </div>
           </div>
           <div className="team__item">
@@ -43,7 +45,10 @@ const Team = () => {
             <div className="team__details">
               <h4>Param Preeth</h4>
               <p className="description" >
-                Founder & Chief Technical Officer
+                Founder & 
+              </p>
+              <p className="description" >
+               Chief Technical Officer
               </p>
               <div className="team__member-social">
                 {/* Empty links for LinkedIn and Email */}
@@ -63,7 +68,10 @@ const Team = () => {
             <div className="team__details">
               <h4>Naveen Itta</h4>
               <p className="description" >
-                Cofounder Strategic Advisor
+                Co-Founder &
+              </p>
+              <p className="description" >
+                Strategic Advisor
               </p>
              <br></br>
             </div>
@@ -78,6 +86,9 @@ const Team = () => {
                 Master Trainer
               </p>
               <br></br>
+              <br></br>
+              <br></br>
+
             </div>
           </div>
           <div className="team__item">
@@ -87,9 +98,14 @@ const Team = () => {
             <div className="team__details">
               <h4>Deena C Rathod</h4>
               <p className="description">
-                Master Trainer
+                Master Trainer & 
               </p>
+              <p className="description">
+              Co-Facilitators 
+              </p>
+              
               <br></br>
+
             </div>
           </div>
         </div>

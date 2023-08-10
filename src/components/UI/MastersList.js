@@ -4,11 +4,12 @@ import Naveen from "../../images/8.png";
 import Bansal from "../../images/11.jpg";
 import Nikhil from "../../images/7.png";
 import Rooshi from "../../images/12.png";
-import Shalini from "../../images/6.png";
+import Shalini from "../../images/shalinimukund.jpg";
 import Venkat from "../../images/5.png";
 import whatsapp from "../../images/3.png";
 import Yashodha from "../../images/2.png";
-import Sheetal from "../../images/10.jpg"
+import Sheetal from "../../images/10.jpg";
+import Varsha from "../../images/varshaSantani.jpg"
 
 const products = [
   {
@@ -26,7 +27,7 @@ const products = [
   {
     id: 10,
     name: 'Varsha Santani',
-    image: "",
+    image: Varsha,
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed tristique lectus, at commodo est. Nulla dapibus scelerisque tellus vitae viverra.',
   },
   {
@@ -69,7 +70,7 @@ const products = [
     },
     {
       id: 7,
-      name: 'Rooshi',
+      name: 'Rooshi Ahmed',
       image: Rooshi,
       description: 'Vivamus malesuada mi et ultricies cursus. Nulla iaculis sapien nunc, nec faucibus est tincidunt ac. In tristique, leo ut ornare.',
     },

@@ -12,7 +12,6 @@ import Team from './components/UI/Team';
 import Testmonials from './components/UI/Testmonials';
 import NewsLetter from './components/UI/NewsLetter';
 import Footer from './components/UI/Footer';
-import Gallery from './components/UI/Gallery';
 import Masters from './components/UI/MastersView';
 import ContactUs from "./components/UI/Contact";
 import Hospital from './components/Serviceslist/Hospital';
@@ -20,7 +19,8 @@ import AboutPage from"./components/About/About";
 import Msme from "./components/Serviceslist/msme"
 import Training from "./components/Serviceslist/PersonalTraining";
 import ServicesPage from "./components/Serviceslist/Services Page";
-import Testimonials from './components/testmonials/testmonial';
+import TestimonialSlider from './components/testmonials/testmonial';
+import Gallery from "./components/Gallery/Gallery"
 function App() {
   const [theme, setTheme] = useState('');
 
@@ -44,7 +44,7 @@ function App() {
          <Route path="/msme" element={<Msme />} /> 
          <Route path="/personaltraining" element={<Training />} />
          <Route path="/services" element={<ServicesPage />} />
-       
+         <Route path="/testmonials" element={<TestimonialSlider />} />
 
       </Routes>
       <Footer />
