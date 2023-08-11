@@ -5,7 +5,7 @@ import heroDarkImg from '../../images/video2.jpg'
  
 const Hero = () =>{
     const phoneNumber = '918105404653'; // Replace with the phone number you want to send the message to
-
+  
     const handleWhatsAppClick = () => {
       const url = `https://wa.me/${phoneNumber}`;
       window.open(url, '_blank');

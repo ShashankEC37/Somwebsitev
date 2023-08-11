@@ -1,11 +1,26 @@
 import React, { useEffect } from "react";
 import "../../styles/training.css"; // Import your custom CSS stylesheet
+import "../../styles/PersonalTraining.css"
 import training from "../../images/121.jpg";
 import training2 from "../../images/121 coaching.jpg"
 import training3 from "../../images/121 coaching 2.jpg"
+import growth from "../../images/growdt.jpg"
+import employee from "../../images/employee.jpg"
+import Slider from "react-slick";
 
 
 const Training = () => {
+  const settings = {
+    fade: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    pauseOnHover: false,
+    dots: true, // Enable dots
+  };
     useEffect(() => {
         const maps = document.querySelectorAll('.map');
     
@@ -16,6 +31,20 @@ const Training = () => {
         });
       }, []);
   return (
+    <div>
+      <Slider {...settings} className="hero__slider">
+        <div className="slider__item Coaching-01 mt0">
+          
+        </div>
+  
+        <div className="slider__item Coaching-02 mt0">
+         
+        </div>
+  
+       
+  
+      </Slider>
+
     <div style={{backgroundColor:"white"}}>
     <div className="top-bar">
       <h2 style={{color:'white'}}>121 Performance Coaching</h2>
@@ -35,7 +64,7 @@ const Training = () => {
       <div className="image">
         <div>
           <img
-            src={training}
+            src={growth}
             alt="img"
           />
         </div>
@@ -46,7 +75,7 @@ const Training = () => {
       <div className="image">
         <div>
           <img
-            src={training2}
+            src={employee}
             alt="img"
           />
         </div>
@@ -197,6 +226,7 @@ const Training = () => {
 
         
       </ul>
+    </div>
     </div>
     </div>
     

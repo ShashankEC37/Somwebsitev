@@ -19,7 +19,7 @@ const Gallery = () => {
         <div className="services-cell">
             
           <img src={hospital} alt="" className="services-cell_img" />
-          <div className="services-cell_text">Hospitals</div>
+          <div className="services-cell_text">Hospital Training</div>
         </div>
         <div className="services-cell">
           <img
@@ -47,7 +47,7 @@ const Gallery = () => {
         </div>
         <div className="services-cell">
           <img src={MSME} alt="" className="services-cell_img" />
-          <div className="services-cell_text">MSME</div>
+          <div className="services-cell_text">MSME Training</div>
         </div>
         <div className="services-cell">
           <img

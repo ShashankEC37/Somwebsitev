@@ -26,7 +26,7 @@ const products = [
   },
   {
     id: 10,
-    name: 'Varsha Santani',
+    name: 'Varsha Samtani',
     image: Varsha,
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed tristique lectus, at commodo est. Nulla dapibus scelerisque tellus vitae viverra.',
   },

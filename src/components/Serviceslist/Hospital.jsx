@@ -11,7 +11,9 @@ import CourseDetails from "./CourseDetails";
 import doctor from "../../images/doctor.jpg"
 import nurses from "../../images/nurse.jpg";
 import hospital4 from "../../images/hospital4.jpg"
-
+import hospital5 from "../../images/HOSPITALS/hospital.jpg"
+import doctor5 from "../../images/HOSPITALS/doctor.jpg"
+import group from "../../images/HOSPITALS/group.jpg"
 const Hospital = () => {
   const settings = {
     fade: true,
@@ -87,12 +89,12 @@ const Hospital = () => {
                 Our training programs focus on building strong customer relationships as well as fostering a positive work culture.
                 </p>
               
-          <a href="#"><strong>Read more &rarr;</strong></a>
+          <a href="/Hospital-Know-More"><strong>Read more &rarr;</strong></a>
         </div>
         <div className="image">
           <div>
             <img
-              src={doctor}
+              src={hospital5}
               alt="img"
             />
           </div>
@@ -103,14 +105,14 @@ const Hospital = () => {
         <div className="image">
           <div>
             <img
-              src={nurses}
+              src={doctor5}
               alt="img"
             />
           </div>
         </div>
         <div className="text">
           <p>At SOM, we offer specialized training programs for hospitals, specifically designed to enhance the skills and capabilities of both administrative and nursing staff. Our training programs focus on building strong customer relationships as well as fostering a positive work culture.</p>
-          <a href="#"><strong>Read more &rarr;</strong></a>
+          <a href="/Hospital-Know-More"><strong>Read more &rarr;</strong></a>
         </div>
       </div>
       <div className="skewed">
@@ -131,7 +133,7 @@ const Hospital = () => {
         <div className="image">
           <div>
             <img
-              src={hospital4}
+              src={group}
               alt="img"
             />
           </div>

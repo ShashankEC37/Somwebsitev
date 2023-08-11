@@ -20,7 +20,10 @@ import Msme from "./components/Serviceslist/msme"
 import Training from "./components/Serviceslist/PersonalTraining";
 import ServicesPage from "./components/Serviceslist/Services Page";
 import TestimonialSlider from './components/testmonials/testmonial';
+import InstituteModel from "./components/Serviceslist/Institute Model"
 import Gallery from "./components/Gallery/Gallery"
+import MsmeKM from './components/Serviceslist/Know More/msmeKM';
+import HospitalKM from './components/Serviceslist/Know More/hospitalKM';
 function App() {
   const [theme, setTheme] = useState('');
 
@@ -42,9 +45,13 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
          <Route path="/hospital" element={<Hospital />} /> 
          <Route path="/msme" element={<Msme />} /> 
+         <Route path="/Institute-Model" element={<InstituteModel />} /> 
          <Route path="/personaltraining" element={<Training />} />
          <Route path="/services" element={<ServicesPage />} />
          <Route path="/testmonials" element={<TestimonialSlider />} />
+         <Route path="/Hospital-Know-More" element={<HospitalKM />} />
+         <Route path="/MSME-Know-More" element={<MsmeKM />} />
+
 
       </Routes>
       <Footer />

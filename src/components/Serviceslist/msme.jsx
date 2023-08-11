@@ -7,7 +7,8 @@ import Slider from "react-slick";
 import msme1 from '../../images/SME/sme2.jpg'
 import msme0 from "../../images/SME/sme3.jpeg";
 import handshake from "../../images/SME/handshake.jpg"
-
+import employee from "../../images/SME/employee.jpg"
+import handshake2 from "../../images/SME/handshake (2).jpg"
 import "../../styles/CourseDetails.css"; 
 const Msme = () => {
 
@@ -57,12 +58,12 @@ const Msme = () => {
         Training results in increased morale of employees because of reduction in dissatisfaction at work, reduced complaints, and reduced absenteeism, and increased interest in work during the post-training period. Heightened morale results in increased loyalty to the organization. It facilitates growth at a professional and personal level.
               </p>
             
-        <a href="#"><strong>Read more &rarr;</strong></a>
+        <a href="/MSME-Know-More"><strong>Read more &rarr;</strong></a>
       </div>
       <div className="image">
         <div>
           <img
-            src={msme0}
+            src={employee}
             alt="img"
           />
         </div>
@@ -80,7 +81,7 @@ const Msme = () => {
       </div>
       <div className="text">
         <p>We provide comprehensive training programs tailored specifically to meet the unique needs of Micro, Small and Medium Enterprises (MSME’s) in various sectors. Our team of experienced trainers are equipped with the knowledge and expertise to identify and address the specific challenges faced by MSME’s to design and deliver training programs that are customized to suit their individual needs.</p>
-        <a href="#">Read more &rarr;</a>
+        <a href="/MSME-Know-More">Read more &rarr;</a>
       </div>
     </div>
     <div className="skewed">
@@ -100,7 +101,7 @@ const Msme = () => {
       <div className="image">
         <div>
           <img
-            src={handshake}
+            src={handshake2}
             alt="img"
           />
         </div>

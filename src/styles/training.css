@@ -1,4 +1,32 @@
 /* Global styles */
+small{
+  color: #ffffff;
+}
+/* styles.css */
+
+.Coaching-01 {
+  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
+    url("../images/121.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Coaching-02 {
+  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
+    url("../images/121\ coaching.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+p{
+      font-size:0.9em;
+      line-height: 23px;
+      font-weight: 300;
+      justify-content: center ;
+}
 .skew {
     margin-top: 40px;
     position: relative;
