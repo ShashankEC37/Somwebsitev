@@ -1,11 +1,11 @@
 import React from "react";
 import "../../styles/team.css";
-import sheetal from "../../images/10.png";
+import sheetal from "../../images/Trainers Pitcure/10.png";
 import Clients from "./Clients";
-import naveen from "../../images/naveen.jpg"
-import param from "../../images/param.jpg";
-import deena from "../../images/deena.jpg";
-import Shashank from "../../images/Shashank.jpg";
+import naveen from "../../images/Trainers Pitcure/naveen.jpg"
+import param from "../../images/Trainers Pitcure/param.jpg";
+import deena from "../../images/Trainers Pitcure/deena.jpg";
+import Shashank from "../../images/Trainers Pitcure/Shashank.jpg";
 
 const Team = () => {
   return (

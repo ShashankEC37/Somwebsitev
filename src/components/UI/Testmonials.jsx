@@ -3,8 +3,6 @@ import "../../styles/testmonials.css"
 import Slider from "react-slick";
 
 
-import ava02 from '../../images/ava-2.jpg'
-import ava03 from '../../images/ava-3.jpg'
 
 const Team = () =>{
     const settings={
@@ -22,7 +20,7 @@ const Team = () =>{
         <div className="container">
             <div className="slider__content-top">
                  
-                    <h2> <span className="white">Trusted by more than500 + Clients</span></h2>
+                    <h2> <span className="white">Trusted by more than 500 + Clients</span></h2>
             </div>
             <div className="slider__wrapper">
             <Slider {...settings}>

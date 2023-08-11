@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../../styles/services.css";
-import EEP from "../../images/employee engagement.jpg";
+
 import { Link } from "react-router-dom";
 
 const Services = () => {
@@ -11,7 +11,7 @@ const Services = () => {
       name: "Hospitals",
       background: (
         <img
-          src={EEP}
+          src=""
           alt="Employee Engagement Program"
           style={{ maxWidth: "250px", height: "250px" }}
         />

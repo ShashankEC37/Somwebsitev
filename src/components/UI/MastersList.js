@@ -1,17 +1,17 @@
-import Akshara from "../../images/1.jpg"
-import Ami from "../../images/9.jpg";
-import Naveen from "../../images/8.png";
-import Bansal from "../../images/11.jpg";
-import Nikhil from "../../images/7.png";
-import Rooshi from "../../images/12.png";
-import Shalini from "../../images/shalinimukund.jpg";
-import Venkat from "../../images/5.png";
-import whatsapp from "../../images/3.png";
-import Yashodha from "../../images/2.png";
-import Sheetal from "../../images/10.jpg";
-import Varsha from "../../images/varshaSantani.jpg";
-import RamSamtani from "../../images/Ram Samtani.jpg";
-import Shashank from "../../images/Shashank.jpg"
+import Akshara from "../../images/Trainers Pitcure/1.jpg"
+import Ami from "../../images/Trainers Pitcure/9.jpg";
+import Naveen from "../../images/Trainers Pitcure/8.png";
+import Bansal from "../../images/Trainers Pitcure/11.jpg";
+import Nikhil from "../../images/Trainers Pitcure/7.png";
+import Rooshi from "../../images/Trainers Pitcure/12.png";
+import Shalini from "../../images/Trainers Pitcure/shalinimukund.jpg";
+import Venkat from "../../images/Trainers Pitcure/5.png";
+import whatsapp from "../../images/Trainers Pitcure/3.png";
+import Yashodha from "../../images/Trainers Pitcure/2.png";
+import Sheetal from "../../images/Trainers Pitcure/10.jpg";
+import Varsha from "../../images/Trainers Pitcure/varshaSantani.jpg";
+import RamSamtani from "../../images/Trainers Pitcure/Ram Samtani.jpg";
+import Shashank from "../../images/Trainers Pitcure/Shashank.jpg"
 
 const products = [
   {

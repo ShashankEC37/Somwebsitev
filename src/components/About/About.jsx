@@ -13,7 +13,7 @@ import accountability from "./accountability.png"
 import AboutSection from "./AboutSection";
 import college from "../../images/interviewCollege.jpg"
 import './about-section.css'
-import msme from "../../images/employee engagement.jpg"
+
 import selfie from "../../images/selfie.jpg"
 const AboutPage  = () => {
   const settings = {
