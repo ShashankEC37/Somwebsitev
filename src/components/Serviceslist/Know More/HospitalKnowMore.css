@@ -1,0 +1,22 @@
+.HospitalSection {
+    padding: 40px 0;
+  }
+
+  .HospitalSection .row {
+    display: flex;
+    align-items: center;
+  }
+
+  @media (max-width: 991px) {
+    .HospitalSection .row {
+      flex-direction: column; /* Change to a single column on smaller screens */
+    }
+}
+
+.HospitalSection {
+  
+}
+.about__section-content {
+    align-content: end;
+  width: 100%;
+  }

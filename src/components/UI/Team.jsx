@@ -4,7 +4,8 @@ import sheetal from "../../images/10.png";
 import Clients from "./Clients";
 import naveen from "../../images/naveen.jpg"
 import param from "../../images/param.jpg";
-import deena from "../../images/deena.jpg"
+import deena from "../../images/deena.jpg";
+import Shashank from "../../images/Shashank.jpg";
 
 const Team = () => {
   return (
@@ -78,7 +79,7 @@ const Team = () => {
           </div>
           <div className="team__item">
             <div className="team__img">
-              <img src="" alt="" />
+              <img src={Shashank} alt="" />
             </div>
             <div className="team__details">
               <h4>Shashank S Rao</h4>

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import college from "../../../images/HOSPITALS/10.jpg"
 import { Container ,Row, Col} from 'react-bootstrap';
+import "../Know More/HospitalKnowMore.css"
 const HospitalKM = () => {
     return (
 <section className="about__page-section1">
@@ -11,7 +12,7 @@ const HospitalKM = () => {
  
         <Row>
        
-          <Col lg="4" md="4">
+          <Col lg="12" md="12">
             <div className="about__section-content" >
            
             <h4 className="Values" style={{ textAlign: "center", fontSize:"50px" }}>Course Description</h4>
@@ -30,11 +31,7 @@ const HospitalKM = () => {
               <div className="about__section-item d-flex align-items-center" style={{ marginBottom: '40px' }}></div>
             </div>
           </Col>
-          <Col lg="8" md="8">
-            <div className="mission__img">
-              <img src={college} alt="" />
-            </div>
-          </Col>
+         
         </Row>
       </div>
     </section>

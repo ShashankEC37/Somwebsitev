@@ -81,7 +81,10 @@ const Masters = () => {
           
             <div className="modal-details">
               <h3>{selectedProduct.name}</h3>
+              <h2>{selectedProduct.designation}</h2>
               <p>{selectedProduct.description}</p>
+              <p>{selectedProduct.description2}</p>
+
             </div>
           </div>
         )}

@@ -133,16 +133,21 @@
 }
 
 .modal-details h3 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 10px;
   color:#090238
 }
-
+.modal-details h2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color:#090238
+}
 .modal-details p {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 17px;
+  line-height: 1.7;
   text-align: justify;
 
   font-weight: 600;

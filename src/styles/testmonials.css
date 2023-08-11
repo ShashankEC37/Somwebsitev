@@ -8,7 +8,7 @@
 
 .slider__wrapper{
     width: 80%;
-    height: 10%;
+    height: 20%;
     margin: auto;
 }
 
@@ -23,8 +23,10 @@
     color: black;
 }
 .description{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-top: 10px;
 }
 
 .white{
@@ -49,6 +51,7 @@
 @media only screen and (max-width:768px) {
    .slider__wrapper{
     width: 90%;
+    height:500px;
    }
    .customer__name{
     font-size: 1rem;
@@ -60,4 +63,9 @@
         font-size: 1.5rem;
     }
 
+}@media only screen and (max-width:620px){
+    .slider__wrapper{
+        width: 90%;
+        height:500px;
+       }   
 }
